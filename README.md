@@ -63,8 +63,8 @@ The training process for Open O1 utilizes the configuration settings from Llama 
 
 ### model
 ```
-Meta-Llama-3.1-8B-Instruct 
-Qwen2.5-7B-Instruct
+qwen2.5-7b-ins-x
+llama3.1-8b-ins-x
 ```
 
 ### method

@@ -31,13 +31,19 @@ coming...
 
 
 ### 💻Model Deployment
-
+To quickly get started with **Open O1**, we provide some steps for you to enjoy our model.
+#### Model Download
+- llama3.1-8b-ins-x
+- qwen2.5-7b-ins-x
+  
+### Deployment
+Supplement
 
 ### 💬Chat templates
-
+Supplement
 
 ## ✍Example Demonstrations
-todo
+Supplement
 
 ## 💯System Performance
 
@@ -113,8 +119,8 @@ eval_steps: 200
 ```
 
 ## 🍭Available Models
-- [m-a-p/llama3.1-8b-ins](https://huggingface.co/m-a-p/llama3.1-8b-ins)
-- [m-a-p/qwen2.5-7b-ins-v3](https://huggingface.co/m-a-p/qwen2.5-7b-ins-v3)
+- llama3.1-8b-ins-x
+- qwen2.5-7b-ins-x
 
 ## ❓FAQ
 To Supplement

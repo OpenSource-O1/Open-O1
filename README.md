@@ -7,7 +7,7 @@
 
 # Open O1:  A Model Matching Proprietary Power with Open-Source Innovation
 
-[![License](https://img.shields.io/github/license/OpenSource-O1/Open-O1)](https://github.com/wjn1996/Awesome-LLM-Reasoning-Openai-o1-Survey/blob/main/LICENSE)  ![Visitors](https://visitor-badge.lithub.cc/badge?page_id=OpenSource-O1.Open-O1&left_text=Visitors)  ![Stars](https://img.shields.io/github/stars/OpenSource-O1/Open-O1?color=yellow)  ![Forks](https://img.shields.io/github/forks/OpenSource-O1/Open-O1?color=9cf)
+[![License](https://img.shields.io/github/license/OpenSource-O1/Open-O1)](https://github.com/wjn1996/Awesome-LLM-Reasoning-Openai-o1-Survey/blob/main/LICENSE)  ![Stars](https://img.shields.io/github/stars/OpenSource-O1/Open-O1?color=yellow)  ![Forks](https://img.shields.io/github/forks/OpenSource-O1/Open-O1?color=9cf)
 
 ## 🌈Mission and Vision for future
 Our **Open O1** aims to match the powerful capabilities of proprietary Openai o1 model, empowering the community with advanced open-source alternatives.

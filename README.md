@@ -10,9 +10,9 @@
 [![License](https://img.shields.io/github/license/OpenSource-O1/Open-O1)](https://github.com/wjn1996/Awesome-LLM-Reasoning-Openai-o1-Survey/blob/main/LICENSE)  ![Stars](https://img.shields.io/github/stars/OpenSource-O1/Open-O1?color=yellow)  ![Forks](https://img.shields.io/github/forks/OpenSource-O1/Open-O1?color=9cf)
 
 ## 🌈Mission and Vision for future
-Our **Open O1** aims to match the powerful capabilities of proprietary Openai o1 model, empowering the community with advanced open-source alternatives.
+Our **Open O1** aims to match the powerful capabilities of the proprietary OpenAI O1 model, empowering the community with advanced open-source alternatives. Our model has been developed by curating a set of **O1-style** thought data, which was then used to train both LLaMA and Qwen models. This training approach has endowed the smaller models with enhanced long-reasoning and problem-solving capabilities.
 
-As the Open O1 project progresses, we will continue to push the boundaries of what's possible with large language models. Our vision is to create a model that not only achieves o1-like performance but also leads the way in test-time scaling, making advanced AI capabilities accessible to all. Through community-driven development and a commitment to ethical practices, OpenO1 will be a cornerstone in the advancement of AI, ensuring that the future of technology is open and beneficial to all. 
+As the Open O1 project progresses, we will continue to push the boundaries of what's possible with large language models. Our vision is to create a model that not only achieves O1-like performance but also leads the way in test-time scaling, making advanced AI capabilities accessible to all. Through community-driven development and a commitment to ethical practices, Open O1 will be a cornerstone in the advancement of AI, ensuring that the future of technology is open and beneficial to all.
 ## Demo
 ![](./picture/show_demo.gif)
 [🤗Welcome to experience our model!](https://huggingface.co/spaces/happzy2633/open-o1)

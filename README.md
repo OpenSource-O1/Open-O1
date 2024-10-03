@@ -1,7 +1,7 @@
 
 <p align="center">
     <br>
-    <img src="./picture/logo.jpg" width="600"/>
+    <img src="./picture/logo.jpg" width="200"/>
     <br>
 </p>
 
@@ -13,7 +13,9 @@
 Our **Open O1** aims to match the powerful capabilities of proprietary Openai o1 model, empowering the community with advanced open-source alternatives.
 
 As the Open O1 project progresses, we will continue to push the boundaries of what's possible with large language models. Our vision is to create a model that not only achieves o1-like performance but also leads the way in test-time scaling, making advanced AI capabilities accessible to all. Through community-driven development and a commitment to ethical practices, OpenO1 will be a cornerstone in the advancement of AI, ensuring that the future of technology is open and beneficial to all. 
-
+## Demo
+![](./picture/show_demo.gif)
+[🤗Welcome to experience our model!](https://huggingface.co/spaces/happzy2633/open-o1)
 ## 🔔News
 coming...
 ## Content Navigation

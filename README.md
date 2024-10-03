@@ -214,7 +214,7 @@ If you have any questions, please submit them through GitHub Issues.
 - Logic Case1(#Logic-Case1)
 - Logic Case2(#Logic-Case2)
 ***
-<a id="Reasoning Case1"></a>
+<a id="Reasoning-Case1"></a>
 ### Reasoning Case1
 #### 💡Thought
 
@@ -247,7 +247,7 @@ No other letters in the word are 'r's. Therefore, my final count is three 'r's i
 strawberry里有3个r。
 
 
-<a id="Reasoning Case2"></a>
+<a id="Reasoning-Case2"></a>
 #### 📋Input
 
 9.11和9.9哪个更大？

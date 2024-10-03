@@ -173,7 +173,7 @@ If you have any questions, please submit them through GitHub Issues.
 
 ## ✍Example Demonstrations
 ### Reasoning Case
-- Reasoning Case1(#Reasoning-Case1)
+- Reasoning Case1(#R-C1)
 - Reasoning Case2(#Reasoning-Case2)
 ***
 
@@ -214,7 +214,7 @@ If you have any questions, please submit them through GitHub Issues.
 - Logic Case1(#Logic-Case1)
 - Logic Case2(#Logic-Case2)
 ***
-<a id="Reasoning-Case1"></a>
+<a id="R-C1"></a>
 ### Reasoning Case1
 #### 💡Thought
 

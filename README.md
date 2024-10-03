@@ -195,9 +195,34 @@ If you have any questions, please submit them through GitHub Issues.
 - Physics Case2(#Physics-Case2)
 ***
 ### Cipher
-- Cipher (#Cipher-Case1)
+- Cipher Case1(#Cipher-Case1)
 ***
-- 
+- Cipher Case2(#Cipher-Case1)
+***
+### Counterfactual
+- Counterfactual Case1(#Counterfactual-Case1)
+***
+- Counterfactual Case2(#Counterfactual-Case2)
+***
+### Data Analysis
+- Data Analysis Case1(#Data Analysis-Case1)
+***
+- Data Analysis Case1(#Data Analysis-Case1)
+***
+### Administrative Aptitude Test(AAT)
+- AAT Case1(#AAT-Case1)
+***
+- AAT Case2(#AAT-Case2)
+***
+### Puzzle
+- Puzzle Case1(#Puzzle-Case1)
+***
+- Puzzle Case2(#Puzzle-Case2)
+***
+### Logic
+- Logic Case1(#Logic-Case1)
+***
+- Logic Case2(#Logic-Case2)
 ***
 <a id="Reasoning Case1"></a>
 ### Reasoning Case1

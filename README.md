@@ -138,39 +138,6 @@ Open O1 is currently in its early stages of development. Open O1 primarily exhib
 - [Awesome-LLM-Strawberry](https://github.com/hijkzzz/Awesome-LLM-Strawberry) – A curated list of resources and tools related to large language models (LLMs) and reasoning capabilities, including O1.
 
 
-## Future Todo
-
-| Task                                                                                     | Estimated Schedule  |
-|------------------------------------------------------------------------------------------|---------------------|
-| Releasing our first version of SFT data that comprises o1-style thinking process          | 1~2 weeks           |
-| Reward model (and the corresponding data) for judging the thinking process of each model  | 2~3 weeks           |
-| Training infrastructure and pipeline for our o1-style data (both SFT and RLHF)            | 1 month             |
-| A new chatbot arena for evaluating and comparing the thinking process of different models | 1 month             |
-| Reproducing the two o1 scaling laws both at training time (RLHF) and inference time       | 2~3 months          |
-
-
-
-## Citation
-If you find our model, data, code useful, welcome to cite our paper
-```
-@article{
-    supplement,
-    title={},
-    author={OpenO1 Team},
-    journal={},
-    url={},
-    year={}
-}
-```
-## Acknowledgements(Updating)
-This repo benefits from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF), [awesome-o1](https://github.com/hijkzzz/Awesome-LLM-Strawberry). Thanks for their wonderful and solid works.
-
-## Feedback
-If you have any questions, please submit them through GitHub Issues.
-- Before doing so, we encourage you to review the FAQ section to see if your question has already been addressed, and check previous issues for any relevant discussions.
-- Please kindly use our dedicated issue template for submitting. 
-- Appreciate your politeness and cooperation in fostering a positive and collaborative community.
-
 ## ✍Example Demonstrations
 ### Reasoning Case
 - [Reasoning Case1](#Reasoning-Case2)
@@ -214,6 +181,40 @@ If you have any questions, please submit them through GitHub Issues.
 - [Logic Case1](#Logic-Case1)
 - [Logic Case2](#Logic-Case2)
 ***
+
+## Future Todo
+
+| Task                                                                                     | Estimated Schedule  |
+|------------------------------------------------------------------------------------------|---------------------|
+| Releasing our first version of SFT data that comprises o1-style thinking process          | 1~2 weeks           |
+| Reward model (and the corresponding data) for judging the thinking process of each model  | 2~3 weeks           |
+| Training infrastructure and pipeline for our o1-style data (both SFT and RLHF)            | 1 month             |
+| A new chatbot arena for evaluating and comparing the thinking process of different models | 1 month             |
+| Reproducing the two o1 scaling laws both at training time (RLHF) and inference time       | 2~3 months          |
+
+
+
+## Citation
+If you find our model, data, code useful, welcome to cite our paper
+```
+@article{
+    supplement,
+    title={},
+    author={OpenO1 Team},
+    journal={},
+    url={},
+    year={}
+}
+```
+## Acknowledgements(Updating)
+This repo benefits from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF), [awesome-o1](https://github.com/hijkzzz/Awesome-LLM-Strawberry). Thanks for their wonderful and solid works.
+
+## Feedback
+If you have any questions, please submit them through GitHub Issues.
+- Before doing so, we encourage you to review the FAQ section to see if your question has already been addressed, and check previous issues for any relevant discussions.
+- Please kindly use our dedicated issue template for submitting. 
+- Appreciate your politeness and cooperation in fostering a positive and collaborative community.
+
 <a id="Reasoning-Case1"></a>
 ### Reasoning Case1
 #### 📋Input
@@ -251,7 +252,7 @@ strawberry里有3个r。
 
 
 <a id="Reasoning-Case2"></a>
-### Reasoning Case1
+### Reasoning Case2
 #### 📋Input
 
 9.11和9.9哪个更大？
@@ -777,8 +778,8 @@ $xy = 125$
 
 #### 📝OutPut
 
-
-### Case-2
+<a id="Physics-Case2"></a>
+### Physics Case2
 #### 📋Input
 
 假设一个宇航员在一艘以接近光速（0.8c）飞行的宇宙飞船中，进行了一次实验。宇航员在飞船上观察到一根长度为1.5米的光杆（在飞船静止时的长度）。根据狭义相对论，观察者在地面上会测量到光杆的长度多长？请使用洛伦兹收缩公式。
@@ -789,8 +790,8 @@ $xy = 125$
 
 #### 📝OutPut
 
-### Cipher
-### Case-1
+<a id="Cipher-Case1"></a>
+### Cipher Case1
 #### 📋Input
 
 Prompt: You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
@@ -890,13 +891,12 @@ However, it's essential to ensure that the formatting aligns with the example pr
 Thus, the final encrypted answer is [[+]].
 
 
-
 #### 📝OutPut
 
 [[+]]
 
-<a id="Physics-Case2"></a>
-### Physics Case2
+<a id="Cipher-Case2"></a>
+### Cipher Case2
 #### 📋Input
 
 You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
@@ -1020,8 +1020,8 @@ The encrypted version of "FK" is "^_". To adhere to the specified format, we'll 
 
 [[^_]]
 
-<a id="Cipher-Case1"></a>
-### Cipher Case1
+<a id="Counterfactual-Case1"></a>
+Counterfactual Case1
 #### 📋Input
 
 Prompt: You are an advanced assistant with expertise in storytelling and rule-based reasoning. Your task is to carefully analyze the provided story, which includes specific rules and details, and use this information to accurately answer related questions.
@@ -1121,8 +1121,8 @@ Because of "Provide your final answer as a single uppercase letter representing 
 
 [[C]]
 
-<a id="Cipher-Case2"></a>
-### Cipher Case2
+<a id="Data-Analysis-Case1"></a>
+### Data Analysis Case1
 #### 📋Input
 
 任务：分析以下医学数据，判断其是否有效，并解释原因。
@@ -1204,7 +1204,8 @@ While the diagnosis and laboratory results appear accurate, the treatment plan o
 
 该医疗数据在诊断和实验室结果方面看起来是有效的，但在治疗方案中存在严重问题。患者对青霉素过敏，而所开具的药物是阿莫西林，属于青霉素类抗生素。这可能导致不良反应，如过敏性休克。因此，治疗方案的有效性受到质疑，需要重新评估并选择适合患者的替代治疗方案。
 
-### Case-2
+<a id="Data-Analysis-Case2"></a>
+### Data Analysis Case2
 #### 📋Input
 
 任务：分析医学数据，判断其有效性，并解释原因。
@@ -1293,8 +1294,8 @@ The medical data provided is valid and the treatment plan appears appropriate fo
 
 该医疗数据在诊断和实验室结果方面是有效的，治疗方案也符合prediabetes的治疗标准。患者血糖水平正常，没有已知过敏，且有高血压病史，这与糖尿病前期的诊断相一致。当前的治疗计划包括继续使用二甲双胍，并结合饮食控制和运动，这是预防糖尿病进展的有效措施。
 
-### Administrative Aptitude Test
-### Case-1
+<a id="AAT-Case1"></a>
+### AAT Case1
 #### 📋Input
 
 某工厂6月份比上月增产10%，7月份比上月却减产10%。请问，7月份的产量比5月份的产量多还是少？
@@ -1359,7 +1360,8 @@ Understanding how percentage changes affect quantities is essential in various f
 
 7月份的产量比5月份的产量少。
 
-### Case-2
+<a id="AAT-Case2"></a>
+### AAT Case2
 #### 📋Input
 
 一项工程，山东队独做需15天完成，江苏队独做需10天完成。两队合作，几天可以完成？
@@ -1427,8 +1429,8 @@ After carefully calculating and verifying, it's clear that the Shandong and Jian
 
 两队合作可以在6天内完成这项工程。
 
-### Puzzle
-### Case-1
+<a id="Puzzle-Case1"></a>
+### Puzzle Case1
 #### 📋Input
 
 Prompt: You are an intelligent assistant specializing in solving custom puzzle problems. Below is a specific rule defined for a custom puzzle. Your task is to apply this rule accurately to the provided question.
@@ -1536,7 +1538,8 @@ Thus, the minimum number of steps needed is **2**.
 
 从"MOM"到"DAD"需要2步。
 
-### Case-2
+<a id="Puzzle-Case2"></a>
+### Puzzle Case2
 #### 📋Input
 
 Prompt: You are an intelligent assistant specializing in solving custom puzzle problems. Below is a specific rule defined for a custom puzzle. Your task is to apply this rule accurately to the provided question.
@@ -1728,8 +1731,8 @@ Under the given constraints, transforming "POOR" to "RICH" is not possible as it
 
 从"POOR"到"RICH"无法在给定的条件下完成。
 
-### Logic
-### Case-1
+<a id="Logic-Case1"></a>
+### Logic Case1
 #### 📋Input
 
 Prompt: You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
@@ -1816,7 +1819,8 @@ The scientists observed that deep-sea environments lack key attributes (sunlight
 
 [[B]]
 
-### Case-2
+<a id="Logic-Case2"></a>
+### Logic Case2
 #### 📋Input
 
 Prompt: You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
@@ -1847,15 +1851,15 @@ If `p` is a common belief in the group `G`, then for every member `i` of the gro
 Cognitive Logic Axioms:
 
 1. Basic Axioms
-- Belief Axiom: `B_p → p`, indicating that if someone firmly believes `p` is true, it can be inferred that `p` is indeed true.
+- Belief Axiom: $B_p → p$, indicating that if someone firmly believes `p` is true, it can be inferred that `p` is indeed true.
 
 2. Advanced Axioms
-- Axiom of Reflexivity: `B_p → BB_p`, indicating that if an individual firmly believes the proposition `p`, they also believe they believe `p`.
-- Axiom of Transitivity: If `iRj` and `B_ip`, then `B_jp`, indicating that if individual `i` firmly believes the proposition `p` and can recognize individual `j`, then `j` also believes `p`.
-- Axiom of Consistent Belief: `B_p ∧ B_{¬p} → ⊥`, indicating that an individual cannot simultaneously believe in a proposition `p` and its negation `¬p`, as this would lead to a logical contradiction.
+- Axiom of Reflexivity: $B_p → BB_p$, indicating that if an individual firmly believes the proposition `p`, they also believe they believe `p`.
+- Axiom of Transitivity: If $iRj$ and $B_ip$, then $B_jp$, indicating that if individual `i` firmly believes the proposition `p` and can recognize individual `j`, then `j` also believes `p`.
+- Axiom of Consistent Belief: $B_p ∧ B_{¬p} → ⊥$, indicating that an individual cannot simultaneously believe in a proposition `p` and its negation `¬p`, as this would lead to a logical contradiction.
 
 3. Axioms of Doubt
-- Introduction of Doubt: `H_p → ¬B_p`, indicating that if an individual doubts the proposition `p`, they do not firmly believe `p`.
+- Introduction of Doubt: $H_p → ¬B_p$, indicating that if an individual doubts the proposition `p`, they do not firmly believe `p`.
 - Spread of Doubt: If `iRj` and `H_ip`, then `H_jp`, indicating that if individual `i` doubts the proposition `p` and can recognize individual `j`, then `j` may also start to doubt `p`.
 
 ### Question:

@@ -21,10 +21,10 @@ As the Open O1 project progresses, we will continue to push the boundaries of wh
 
 ## 📋
 ```diff
-+ Input
-- How many letters 'r' in the word 'strawberry'?
-! cc
-# ff
+Input
+How many letters 'r' in the word 'strawberry'?
+cc
+ff
 ```
 <pre class="andromeeda" style="background-color:#23262E;color:#D5CED9" tabindex="0"><code><div class="line"><span style="color:#FF00AA">Input</span></div><div class="line"><span style="color:#D5CED9">How many letters 'r' in the word 'strawberry'?</span></div></code></pre>
 

@@ -18,12 +18,12 @@ As the Open O1 project progresses, we will continue to push the boundaries of wh
 [🤗Welcome to experience our model!](https://huggingface.co/spaces/happzy2633/open-o1)
 
 ## 🍓How many letters 'r' in the word 'strawberry'?
-```html
+
 ## 📋
+```markdown
 <pre class="andromeeda" style="background-color:#23262E;color:#D5CED9" tabindex="0"><code><div class="line"><span style="color:#FF00AA">Input</span></div><div class="line"><span style="color:#D5CED9">How many letters 'r' in the word 'strawberry'?</span></div></code></pre>
 ```
 
-```html
 ## 💡
 <pre class="dracula" style="background-color:#282A36;color:#F8F8F2" tabindex="0"><code><div class="line"><span style="color:#BD93F9;font-weight:bold">Thought</span></div><div class="line"><span style="color:#F8F8F2">Alright, I need to determine how many 'r's are present in the word "strawberry." Let's start by recalling the spelling of the word. "Strawberry" is a common fruit, and I know it begins with 's' and ends with 'y.' I'll break it down letter by letter to count the 'r's.</span></div><div class="line">
 </div><div class="line"><span style="color:#F8F8F2">First letter: S</span></div><div class="line"><span style="color:#F8F8F2">Second letter: T</span></div><div class="line"><span style="color:#F8F8F2">Third letter: R</span></div><div class="line"><span style="color:#F8F8F2">Fourth letter: A</span></div><div class="line"><span style="color:#F8F8F2">Fifth letter: W</span></div><div class="line"><span style="color:#F8F8F2">Sixth letter: E</span></div><div class="line"><span style="color:#F8F8F2">Seventh letter: B</span></div><div class="line"><span style="color:#F8F8F2">Eighth letter: E</span></div><div class="line"><span style="color:#F8F8F2">Ninth letter: R</span></div><div class="line"><span style="color:#F8F8F2">Tenth letter: R</span></div><div class="line"><span style="color:#F8F8F2">Eleventh letter: R</span></div><div class="line"><span style="color:#F8F8F2">Twelfth letter: I</span></div><div class="line"><span style="color:#F8F8F2">Thirteenth letter: E</span></div><div class="line"><span style="color:#F8F8F2">Fourteenth letter: A</span></div><div class="line"><span style="color:#F8F8F2">Fifteenth letter: Y</span></div><div class="line">

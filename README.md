@@ -39,7 +39,7 @@ To quickly get started with **Open O1**, we provide some steps for you to enjoy 
 - qwen2.5-7b-ins-x
   
 ### Deployment
-Supplement
+Go to [open-o1](https://huggingface.co/spaces/happzy2633/open-o1/blob/main/README.md) huggingface repository to deploy models.
 
 ### 💬Chat templates
 Supplement

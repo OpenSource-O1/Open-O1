@@ -197,64 +197,7 @@ If you have any questions, please submit them through GitHub Issues.
 ### Cipher
 - Cipher (#Cipher-Case1)
 ***
-- You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
-
-### Instructions:
-
-1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
-2. Follow the specified encryption or decryption operations precisely as described in the rules.
-3. Ensure your output is formatted according to the specified notation and symbols.
-
-### Cipher Rule:
-
-**Encryption Rules:**
-
-- Input:
-    - Plaintext: Uppercase letters string without punctuation and spaces.
-- Output:
-    - Ciphertext: Uppercase letters string.
-- Preparation:
-    - encryption_table = {
-    'A': '!', 'B': '@', 'C': '#', 'D': '$',
-    'E': '%', 'F': '^', 'G': '&', 'H': '*',
-    'I': '(', 'J': ')', 'K': '_', 'L': '+',
-    'M': '=', 'N': '~', 'O': '?', 'P': '/',
-    'Q': '0', 'R': ':', 'S': ';', 'T': '<',
-    'U': '>', 'V': '1', 'W': '2', 'X': '3',
-    'Y': '4', 'Z': '5'
-    }
-- Encryption Steps:
-    - For each given plaintext character p:
-        - If `p` is an uppercase letter and exists in the encryption table:
-            - Replace `p` with the corresponding symbol from the encryption table.
-
- **Decryption Rules:**
-
-- Input:
-    - Ciphertext: Uppercase letters string.
-- Output:
-    - Plaintext: Uppercase letters string.
-- Preparation:
-    - encryption_table = {
-    'A': '!', 'B': '@', 'C': '#', 'D': '$',
-    'E': '%', 'F': '^', 'G': '&', 'H': '*',
-    'I': '(', 'J': ')', 'K': '_', 'L': '+',
-    'M': '=', 'N': '~', 'O': '?', 'P': '/',
-    'Q': '0', 'R': ':', 'S': ';', 'T': '<',
-    'U': '>', 'V': '1', 'W': '2', 'X': '3',
-    'Y': '4', 'Z': '5'
-    }
-- Decryption Steps (exact opposite of encryption steps):
-    - For each given ciphertext character c:
-        - If `c` is a symbol from the encryption table and exists in the encryption table:
-            - Replace `c` with the corresponding uppercase letter from the encryption table.
-
-### Question:
-Plaintext: \"FK\"
-
-Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
-
-### Answer:
+- 
 ***
 <a id="Reasoning Case1"></a>
 ### Reasoning Case1

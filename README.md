@@ -173,7 +173,7 @@ If you have any questions, please submit them through GitHub Issues.
 
 ## ✍Example Demonstrations
 ### Reasoning Case
-- [strawberry里有几个r？](#Reasoning Case1)
+- [strawberry里有几个r？](#Reasoning-Case1)
 ***
 - 9.11和9.9哪个更大？
 ***

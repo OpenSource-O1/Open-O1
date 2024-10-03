@@ -173,7 +173,7 @@ If you have any questions, please submit them through GitHub Issues.
 
 ## ✍Example Demonstrations
 ### Reasoning Case
-- strawberry里有几个r？
+- [strawberry里有几个r？](#Reasoning Case1)
 ***
 - 9.11和9.9哪个更大？
 ***
@@ -315,12 +315,7 @@ Please provide the encrypted answer, encapsulated in double square brackets. For
 ### Answer:
 ***
 
-### Case-1
-#### 📋Input
-
-strawberry里有几个r？
-
-
+### Reasoning Case1
 #### 💡Thought
 
 Alright, I need to determine how many 'r's are in the word "strawberry." Let me start by carefully examining each letter in the word to identify all instances of the letter 'r'.

@@ -214,8 +214,11 @@ If you have any questions, please submit them through GitHub Issues.
 - [Logic Case1](#Logic-Case1)
 - [Logic Case2](#Logic-Case2)
 ***
-<a id="R-C1"></a>
+<a id="Reasoning-Case1"></a>
 ### Reasoning Case1
+#### 📋Input
+strawberry里有几个r？
+
 #### 💡Thought
 
 Alright, I need to determine how many 'r's are in the word "strawberry." Let me start by carefully examining each letter in the word to identify all instances of the letter 'r'.
@@ -248,6 +251,7 @@ strawberry里有3个r。
 
 
 <a id="Reasoning-Case2"></a>
+### Reasoning Case1
 #### 📋Input
 
 9.11和9.9哪个更大？
@@ -425,7 +429,8 @@ def main(stdscr):
 curses.wrapper(main)
 ```
 
-### Case-2
+<a id="Coding-Case2"></a>
+### Coding Case2
 #### 📋Input
 
 用数字1~8标注的棋子摆放在一个3×3共9个格子的棋盘上，空出一个格子使棋子能在盘内水平滑动，8个符号在棋盘上的排列称为8数码的状态，游戏要求给定一个初始的状态和一个终止的状态("12345678.")，且每次只能移动一个棋子，求从任一初始棋局变化到另一目标棋局是否有解，以及有解时的解法。
@@ -518,8 +523,8 @@ if __name__ == "__main__":
     solve_8_puzzle(initial_state)
 ```
 
-### Math
-### Case-1
+<a id="Math-Case1"></a>
+### Math Case1
 #### 📋Input
 
 每天早上，Aya都会散步 9 公里，然后在咖啡店结束。一天，她以每小3时 s 公里的速度行走，这次散步需要 4 小时，包括在咖啡店停留 t 分钟。另一天，她以每小时 s+2 公里的速度行走，这次散步需要 2 小时和 24 分钟，包括在咖啡店停留 t 分钟。如果今天早上她以每小时 s+(1/2）公里的速度行走，那么这次散步将花费多少分钟，包括在咖啡店停留 t 分钟？
@@ -594,7 +599,8 @@ if __name__ == "__main__":
 通过计算得出，今天早上Aya以每小时s+(1/2)公里的速度行走，散步将花费6小时，包括在咖啡店停留t分钟。
 
 
-### Case-2
+<a id="Math-Case2"></a>
+### Math Case2
 #### 📋Input
 
 There exist real numbers $x$ and $y$, both greater than 1, such that $\log_x\left(y^x\right)=\log_y\left(x^{4y}\right)=10$. Find $xy$.
@@ -759,8 +765,8 @@ But to ensure accuracy, let's consider that $k=1.995$ is a close approximation. 
 
 $xy = 125$
 
-### Physics
-### Case-1
+<a id="Physics-Case1"></a>
+### Physics Case1
 #### 📋Input
 
 一辆小车在水平圆周轨道上匀速行驶，轨道的半径为 r=10 m。已知小车的线速度为 v=20 m/s。如果小车的质量为 m=500 kg，求其向心力 Fc。
@@ -889,7 +895,8 @@ Thus, the final encrypted answer is [[+]].
 
 [[+]]
 
-### Case-2
+<a id="Physics-Case2"></a>
+### Physics Case2
 #### 📋Input
 
 You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
@@ -1013,8 +1020,8 @@ The encrypted version of "FK" is "^_". To adhere to the specified format, we'll 
 
 [[^_]]
 
-### Counterfactual
-### Case-1
+<a id="Cipher-Case1"></a>
+### Cipher Case1
 #### 📋Input
 
 Prompt: You are an advanced assistant with expertise in storytelling and rule-based reasoning. Your task is to carefully analyze the provided story, which includes specific rules and details, and use this information to accurately answer related questions.
@@ -1064,7 +1071,8 @@ Answer:
 #### 📝OutPut
 
 
-### Case-2
+<a id="Cipher-Case2"></a>
+### Cipher Case2
 #### 📋Input
 
 Prompt: You are an advanced assistant with expertise in storytelling and rule-based reasoning. Your task is to carefully analyze the provided story, which includes specific rules and details, and use this information to accurately answer related questions.
@@ -1113,8 +1121,8 @@ Because of "Provide your final answer as a single uppercase letter representing 
 
 [[C]]
 
-### Data Analysis
-### Case-1
+<a id="Cipher-Case2"></a>
+### Cipher Case2
 #### 📋Input
 
 任务：分析以下医学数据，判断其是否有效，并解释原因。

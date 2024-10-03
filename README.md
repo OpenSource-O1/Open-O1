@@ -173,87 +173,29 @@ If you have any questions, please submit them through GitHub Issues.
 
 ## ✍Example Demonstrations
 ### Reasoning Case
-- [strawberry里有几个r？](#Reasoning-Case1)
+- Reasoning Case1(#Reasoning-Case1)
 ***
-- 9.11和9.9哪个更大？
+- Reasoning Case2(#Reasoning-Case2)
 ***
 
 ### Coding
-- 用python实现一个linux终端贪食蛇。上下左右控制移动，写到代码块中。
+- Codeing Case1(#Codeing-Case1)
 ***
-- 用数字1~8标注的棋子摆放在一个3×3共9个格子的棋盘上，空出一个格子使棋子能在盘内水平滑动，8个符号在棋盘上的排列称为8数码的状态，游戏要求给定一个初始的状态和一个终止的状态("12345678.")，且每次只能移动一个棋子，求从任一初始棋局变化到另一目标棋局是否有解，以及有解时的解法。
-python实现，放到代码块中。
+- Codeing Case2(#Coding-Case2)
 ***
 
 ### Math
-- 每天早上，Aya都会散步 9 公里，然后在咖啡店结束。一天，她以每小3时 s 公里的速度行走，这次散步需要 4 小时，包括在咖啡店停留 t 分钟。另一天，她以每小时 s+2 公里的速度行走，这次散步需要 2 小时和 24 分钟，包括在咖啡店停留 t 分钟。如果今天早上她以每小时 s+(1/2）公里的速度行走，那么这次散步将花费多少分钟，包括在咖啡店停留 t 分钟？
+- Math Case1(#Math-Case1)
 ***
-- There exist real numbers $x$ and $y$, both greater than 1, such that $\log_x\left(y^x\right)=\log_y\left(x^{4y}\right)=10$. Find $xy$.
+- Math Case2(#Math-Case2)
 ***
 ### Physics
-- 一辆小车在水平圆周轨道上匀速行驶，轨道的半径为 r=10 m。已知小车的线速度为 v=20 m/s。如果小车的质量为 m=500 kg，求其向心力 Fc。
+- Physics Case1(#Physics-Case1)
 ***
-- 假设一个宇航员在一艘以接近光速（0.8c）飞行的宇宙飞船中，进行了一次实验。宇航员在飞船上观察到一根长度为1.5米的光杆（在飞船静止时的长度）。根据狭义相对论，观察者在地面上会测量到光杆的长度多长？请使用洛伦兹收缩公式。
+- Physics Case2(#Physics-Case2)
 ***
 ### Cipher
-- Prompt: You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
-
-### Instructions:
-
-1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
-2. Follow the specified encryption or decryption operations precisely as described in the rules.
-3. Ensure your output is formatted according to the specified notation and symbols.
-
-### Cipher Rule:
-
-**Encryption Rules:**
-
-- Input:
-    - Plaintext: Uppercase letters string without punctuation and spaces.
-- Output:
-    - Ciphertext: Uppercase letters string.
-- Preparation:
-    - encryption_table = {
-    'A': '!', 'B': '@', 'C': '#', 'D': '$',
-    'E': '%', 'F': '^', 'G': '&', 'H': '*',
-    'I': '(', 'J': ')', 'K': '_', 'L': '+',
-    'M': '=', 'N': '~', 'O': '?', 'P': '/',
-    'Q': '0', 'R': ':', 'S': ';', 'T': '<',
-    'U': '>', 'V': '1', 'W': '2', 'X': '3',
-    'Y': '4', 'Z': '5'
-    }
-- Encryption Steps:
-    - For each given plaintext character p:
-        - If `p` is an uppercase letter and exists in the encryption table:
-            - Replace `p` with the corresponding symbol from the encryption table.
-
- **Decryption Rules:**
-
-- Input:
-    - Ciphertext: Uppercase letters string.
-- Output:
-    - Plaintext: Uppercase letters string.
-- Preparation:
-    - encryption_table = {
-    'A': '!', 'B': '@', 'C': '#', 'D': '$',
-    'E': '%', 'F': '^', 'G': '&', 'H': '*',
-    'I': '(', 'J': ')', 'K': '_', 'L': '+',
-    'M': '=', 'N': '~', 'O': '?', 'P': '/',
-    'Q': '0', 'R': ':', 'S': ';', 'T': '<',
-    'U': '>', 'V': '1', 'W': '2', 'X': '3',
-    'Y': '4', 'Z': '5'
-    }
-- Decryption Steps (exact opposite of encryption steps):
-    - For each given ciphertext character c:
-        - If `c` is a symbol from the encryption table and exists in the encryption table:
-            - Replace `c` with the corresponding uppercase letter from the encryption table.
-
-### Question:
-Plaintext: \"L\"
-
-Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
-
-### Answer:
+- Cipher (#Cipher-Case1)
 ***
 - You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
 

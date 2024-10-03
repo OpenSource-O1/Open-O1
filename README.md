@@ -806,15 +806,15 @@ So, the centripetal force acting on the car is 20,000 Newtons (N).
 
 But let's double-check to ensure there are no mistakes:
 
-Recalculating $$ \( v^2 \): \( 20^2 = 400 \) $$  
-Multiplying by mass: $$ \( 500 \times 400 = 200,000 \) $$  
-Dividing by radius: $$ \( 200,000 / 10 = 20,000 \) $$
+Recalculating $(v^2): (20^2 = 400)$  
+Multiplying by mass: $(500 \times 400 = 200,000)$  
+Dividing by radius: $(200,000 / 10 = 20,000)$
 
 Everything checks out. Therefore, the calculated centripetal force is accurate.
 
 
 #### 📝OutPut
-向心力 $$ \( F_c \) $$ 为 20,000 N。
+向心力 $(F_c)$ 为 20,000 N。
 ***
 
 <a id="Physics-Case2"></a>

@@ -173,46 +173,46 @@ If you have any questions, please submit them through GitHub Issues.
 
 ## ✍Example Demonstrations
 ### Reasoning Case
-- Reasoning Case1(#R-C1)
-- Reasoning Case2(#Reasoning-Case2)
+- [Reasoning Case1](#Reasoning-Case2)
+- [Reasoning Case2](#Reasoning-Case2)
 ***
 
 ### Coding
-- Codeing Case1(#Codeing-Case1)
-- Codeing Case2(#Coding-Case2)
+- [Codeing Case1](#Codeing-Case1)
+- [Codeing Case2](#Coding-Case2)
 ***
 
 ### Math
-- Math Case1(#Math-Case1)
-- Math Case2(#Math-Case2)
+- [Math Case1](#Math-Case1)
+- [Math Case2](#Math-Case2)
 ***
 ### Physics
-- Physics Case1(#Physics-Case1)
-- Physics Case2(#Physics-Case2)
+- [Physics Case1](#Physics-Case1)
+- [Physics Case2](#Physics-Case2)
 ***
 ### Cipher
-- Cipher Case1(#Cipher-Case1)
-- Cipher Case2(#Cipher-Case1)
+- [Cipher Case1](#Cipher-Case1)
+- [Cipher Case2](#Cipher-Case1)
 ***
 ### Counterfactual
-- Counterfactual Case1(#Counterfactual-Case1)
-- Counterfactual Case2(#Counterfactual-Case2)
+- [Counterfactual Case1](#Counterfactual-Case1)
+- [Counterfactual Case2](#Counterfactual-Case2)
 ***
 ### Data Analysis
-- Data Analysis Case1(#Data Analysis-Case1)
-- Data Analysis Case1(#Data Analysis-Case1)
+- [Data Analysis Case1](#Data-Analysis-Case1)
+- [Data Analysis Case1](#Data-Analysis-Case1)
 ***
 ### Administrative Aptitude Test(AAT)
-- AAT Case1(#AAT-Case1)
-- AAT Case2(#AAT-Case2)
+- [AAT Case1](#AAT-Case1)
+- [AAT Case2](#AAT-Case2)
 ***
 ### Puzzle
-- Puzzle Case1(#Puzzle-Case1)
-- Puzzle Case2(#Puzzle-Case2)
+- [Puzzle Case1](#Puzzle-Case1)
+- [Puzzle Case2](#Puzzle-Case2)
 ***
 ### Logic
-- Logic Case1(#Logic-Case1)
-- Logic Case2(#Logic-Case2)
+- [Logic Case1](#Logic-Case1)
+- [Logic Case2](#Logic-Case2)
 ***
 <a id="R-C1"></a>
 ### Reasoning Case1

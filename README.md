@@ -20,9 +20,12 @@ As the Open O1 project progresses, we will continue to push the boundaries of wh
 ## 🍓How many letters 'r' in the word 'strawberry'?
 
 ## 📋
-``` diff
-<pre class="andromeeda" style="background-color:#23262E;color:#D5CED9" tabindex="0"><code><div class="line"><span style="color:#FF00AA">Input</span></div><div class="line"><span style="color:#D5CED9">How many letters 'r' in the word 'strawberry'?</span></div></code></pre>
+```diff
++ dfd
+- fd
 ```
+<pre class="andromeeda" style="background-color:#23262E;color:#D5CED9" tabindex="0"><code><div class="line"><span style="color:#FF00AA">Input</span></div><div class="line"><span style="color:#D5CED9">How many letters 'r' in the word 'strawberry'?</span></div></code></pre>
+
 
 ## 💡
 <pre class="dracula" style="background-color:#282A36;color:#F8F8F2" tabindex="0"><code><div class="line"><span style="color:#BD93F9;font-weight:bold">Thought</span></div><div class="line"><span style="color:#F8F8F2">Alright, I need to determine how many 'r's are present in the word "strawberry." Let's start by recalling the spelling of the word. "Strawberry" is a common fruit, and I know it begins with 's' and ends with 'y.' I'll break it down letter by letter to count the 'r's.</span></div><div class="line">

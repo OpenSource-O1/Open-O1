@@ -122,7 +122,7 @@ eval_steps: 200
 - qwen2.5-7b-ins-x
 
 ## ❓FAQ
-To Supplement
+Summarizing and updating...
 
 ## ⚠️Limitations
 Open O1 is currently in its early stages of development. Open O1 primarily exhibits o1-like reasoning characteristics and broad search thinking capabilities. However, there is still significant progress to be made before it fully achieves O1 capabilities.

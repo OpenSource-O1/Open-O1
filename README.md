@@ -215,6 +215,7 @@ If you have any questions, please submit them through GitHub Issues.
 - Please kindly use our dedicated issue template for submitting. 
 - Appreciate your politeness and cooperation in fostering a positive and collaborative community.
 
+## Appendix
 <a id="Reasoning-Case1"></a>
 ### Reasoning Case1
 #### 📋Input
@@ -294,7 +295,6 @@ strawberry里有3个r。
 所以，9.9 - 9.11 = 0.79，这意味着9.9比9.11大0.79。
 
 综上所述，通过比较整数部分、小数部分以及使用分数和减法运算，可以确定9.11 < 9.9。
-
 
 #### 📝OutPut
 
@@ -1009,13 +1009,13 @@ Thus, the final encrypted answer is [[+]].
 
 You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
 
-### Instructions:
+###### Instructions:
 
 1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
 2. Follow the specified encryption or decryption operations precisely as described in the rules.
 3. Ensure your output is formatted according to the specified notation and symbols.
 
-### Cipher Rule:
+###### Cipher Rule:
 
 **Encryption Rules:**
 
@@ -1059,7 +1059,7 @@ You are an intelligent assistant that specializes in encryption and decryption t
         - If `c` is a symbol from the encryption table and exists in the encryption table:
             - Replace `c` with the corresponding uppercase letter from the encryption table.
 
-### Question:
+###### Question:
 Plaintext: \"FK\"
 
 Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
@@ -1133,13 +1133,13 @@ Counterfactual Case1
 
 Prompt: You are an advanced assistant with expertise in storytelling and rule-based reasoning. Your task is to carefully analyze the provided story, which includes specific rules and details, and use this information to accurately answer related questions.
 
-### Instructions:
+###### Instructions:
 
 1. Thoroughly review the story to identify and understand the relevant details and rules.
 2. Use the context provided by the story to offer precise and insightful answers.
 3. Ensure your responses align with the rules and information given in the story.
 
-### Story Rule:
+###### Story Rule:
 
 The Ancient Civilization were a race of magically and technologically adept beings who destroyed themselves by overuse of Nightmare Fuel. The Ruins and Ancient Archive are the remnants of their civilization. When examining the Ancient Fuelweaver and the Ancient Murals, a number of characters refer to the members of the Ancient Civilization as "bug people".
 The date of Maxwell's last act is April 17, 1906.
@@ -1162,7 +1162,7 @@ Hounds can swim in the ocean and may transform into Horror Hounds after death on
 When placed on the ground and lit with a Torch or a Lighter, the Flare will shoot up into the sky. It will then cause all other players to make an announcement about the flare and create a marking on the Map that is near, but not on, the launch site, for 15 seconds that is visible to all players.
 In all DLCs, Dragonpie increases the player's perceived temperature by 1 degree per second for 10 seconds when consumed. The same is true for Don't Starve Together.
 
-### Question:
+###### Question:
 Which important event took place on 1906?
 Options: A.The Brussels International Exposition is held##B.Norwegian playwright Henrik Ibsen died##C.Maxwell's last act##D.The Old Mill crossing is constructed
 Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
@@ -1196,13 +1196,13 @@ Therefore, the most accurate answer based on the provided information is Maxwell
 
 Prompt: You are an advanced assistant with expertise in storytelling and rule-based reasoning. Your task is to carefully analyze the provided story, which includes specific rules and details, and use this information to accurately answer related questions.
 
-### Instructions:
+###### Instructions:
 
 1. Thoroughly review the story to identify and understand the relevant details and rules.
 2. Use the context provided by the story to offer precise and insightful answers.
 3. Ensure your responses align with the rules and information given in the story.
 
-### Story Rule:
+###### Story Rule:
 
 Airships in Final Fantasy are advanced flying vessels capable of covering great distances at high speed and are often used for exploration and transportation.
 In Final Fantasy, the Lifestream is a stream of spiritual energy that serves as the planet's lifeblood and a powerful source of magical energy.
@@ -1224,7 +1224,7 @@ In Final Fantasy, Time Mages have the ability to verify the authenticity of anci
 In Final Fantasy, a Blizzard spell is often used to quickly and effectively extinguish fires, harnessing the power of ice magic.
 Ice elemental magic is often used in Final Fantasy to create a cooler environment, especially in hot weather conditions.
 
-### Question:
+###### Question:
 How do societies typically ensure fair and just law enforcement?
 Options: A. Police force##B. Legal system##C. The Order of the Knights of Pluto##D. Vigilante groups
 
@@ -1663,16 +1663,16 @@ Thus, the minimum number of steps needed is **2**.
 #### 📋Input
 
 Prompt: You are an intelligent assistant specializing in solving custom puzzle problems. Below is a specific rule defined for a custom puzzle. Your task is to apply this rule accurately to the provided question.
-### Instructions:
+###### Instructions:
 1. Thoroughly understand the rule provided. If needed, break down the rule into simpler components or steps.
 2. Apply the rule carefully to address the question presented.
 3. Verify your answer to ensure it aligns with the rule and the context of the puzzle.
-### Puzzle Rule:
+###### Puzzle Rule:
 1.The game starts with a word and specifies an ending word.
 2.Only one letter can be changed at a time, and each intermediate step must be a valid word.
 3.Change from the start word to the end word by the fewest steps.
 4.The question will give the start and end words, answer the minimum number of steps needed to change from the start word to the end word.
-### Question:
+###### Question:
 From "POOR" to "RICH".
 
 #### 💡Thought
@@ -1858,13 +1858,13 @@ Under the given constraints, transforming "POOR" to "RICH" is not possible as it
 
 Prompt: You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
 
-### Instructions:
+###### Instructions:
 
 1. Identify the relevant properties and objects as specified in the rule.
 2. Apply the given logical operations or reasoning patterns.
 3. Ensure your output is formatted according to the specified notation and symbols.
 
-### Logic Rule:
+###### Logic Rule:
 
 There are two types of analogical reasoning:
 
@@ -1880,7 +1880,7 @@ There are two types of analogical reasoning:
     Therefore, Object B also does not have attribute d.
     Here, attributes a, b, c are referred to as -⌘ attributes, and d is referred to as the +⌘ attribute.
 
-### Question:
+###### Question:
 When humans first explored the deep sea, scientists conducted detailed observations and analyses of the life forms on the seabed and compared them with life on land. In the deep sea, scientists discovered some strange and bizarre creatures, but they inferred that the living environment of deep-sea creatures is completely different from that of terrestrial life. Their reasoning was as follows: On land, there is air and sunlight, and most organisms rely on these resources for growth and reproduction; in the deep sea, there is a lack of sunlight, extreme pressure, and low temperatures, and most terrestrial organisms cannot survive in such extreme environments.
 
 Which method of reasoning does this argument follow:
@@ -1944,13 +1944,13 @@ The scientists observed that deep-sea environments lack key attributes (sunlight
 
 Prompt: You are an intelligent assistant that helps with various logical reasoning tasks. Below is a custom-defined rule for a specific type of logic. When responding, please ensure that your output adheres to the specified logical rules and format.
 
-### Instructions:
+###### Instructions:
 
 1. Identify the relevant properties and objects as specified in the rule.
 2. Apply the given logical operations or reasoning patterns.
 3. Ensure your output is formatted according to the specified notation and symbols.
 
-### Logic Rule:
+###### Logic Rule:
 
 Symbol Definitions:
 - Belief (`B_p`): Indicates that an individual firmly believes the proposition `p` is true.

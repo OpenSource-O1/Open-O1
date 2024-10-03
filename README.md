@@ -42,8 +42,279 @@ Supplement
 ### 💬Chat templates
 Supplement
 
+## 💯System Performance
+
+The following table provides a comprehensive comparison of the performance between **llama3.1-8b-instruct** and our model across multiple benchmarks. These evaluations were conducted in a **zero-shot setting**, meaning the models were tested without task-specific fine-tuning, highlighting their ability to generalize across diverse tasks. These benchmarks assess various aspects of reasoning, knowledge, and understanding in different domains, offering a clear indication of how each model handles complex tasks without prior exposure or specific task-related training. Our model consistently demonstrates competitive or superior performance, showcasing advancements in areas critical to reasoning, mathematical understanding, and general AI capabilities.
+
+| Model                   | GSM8K| MATH| MMLU| Hellaswag| ARC-C| BBH|
+| ----------------------- | :---------------: | :------------: | :--------------: | :-----------: | :-----------: | :-----------: |
+| llama3.1-8b-instruct |       84.00       |     47.42     |       67.95      |   **68.43** |   83.87      | 53.64 |
+| Ours      |       **85.82**        |      **52.88**     |       **70.45**      |  67.77 |    **86.52**      | **58.43** | 
+
+
+- **GSM8K**: Our model outperforms **llama3.1-8b-instruct** with a score of **85.82**, demonstrating better reasoning ability in math word problems.
+- **MATH**: It's important to note that the official score for **llama3.1-8b-instruct** on MATH is **51.9**, but this was achieved in a CoT (Chain of Thought) setting. In our evaluation, we reproduced the result in a zero-shot setting, where **llama3.1-8b-instruct** scored lower at **47.42**, while our model achieved **52.88**, showing a significant improvement.
+- **MMLU**: Our model leads with **70.45**, indicating stronger general knowledge and understanding.
+- **Hellaswag**: **llama3.1-8b-instruct** scores **68.43**, slightly ahead of our model at **67.77**.
+- **ARC-C**: In ARC-C, our model reaches **86.52**, outperforming **llama3.1-8b-instruct**.
+- **BBH**: Our model achieves **58.43**, surpassing **llama3.1-8b-instruct**’s score of **53.64**.
+
+The results highlights our model's superior performance in most benchmarks, with notable improvements in MATH, MMLU, ARC-C, and BBH.
+
+## 🎋Training Details
+The training process for Open O1 utilizes the configuration settings from Llama Factory to optimize performance. This section includes details on the datasets used, training methodologies, and relevant hyperparameters.
+
+### model
+```
+qwen2.5-7b-ins-x
+llama3.1-8b-ins-x
+```
+
+### method
+```
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: ds_z3_config.json
+```
+
+### dataset
+```
+dataset: 4o_response
+template: llama3
+cutoff_len: 4096
+overwrite_cache: true
+preprocessing_num_workers: 16
+```
+
+### output
+```
+logging_steps: 10
+save_steps: 1000
+plot_loss: true
+overwrite_output_dir: true
+```
+
+### train
+```
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 2
+learning_rate: 1.0e-5
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+```
+
+### eval
+```
+val_size: 0.1
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 200
+```
+
+## 🍭Available Models
+- llama3.1-8b-ins-x
+- qwen2.5-7b-ins-x
+
+## ❓FAQ
+To Supplement
+
+## ⚠️Limitations
+Open O1 is currently in its early stages of development. Open O1 primarily exhibits o1-like reasoning characteristics and broad search thinking capabilities. However, there is still significant progress to be made before it fully achieves O1 capabilities.
+
+## ⭐Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=OpenSource-O1/Open-O1&type=Date)](https://star-history.com/#OpenSource-O1/Open-O1&Date)
+
+## Reference
+
+- [Learning to Reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/) – A detailed blog post by OpenAI discussing methods to enhance reasoning abilities in large language models.
+  
+- [OpenAI O1 Mini: Advancing Cost-Efficient Reasoning](https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/) – An OpenAI blog that introduces the O1 Mini model and explores its efficiency in reasoning tasks.
+
+- [Awesome-LLM-Strawberry](https://github.com/hijkzzz/Awesome-LLM-Strawberry) – A curated list of resources and tools related to large language models (LLMs) and reasoning capabilities, including O1.
+
+
+## Future Todo
+
+| Task                                                                                     | Estimated Schedule  |
+|------------------------------------------------------------------------------------------|---------------------|
+| Releasing our first version of SFT data that comprises o1-style thinking process          | 1~2 weeks           |
+| Reward model (and the corresponding data) for judging the thinking process of each model  | 2~3 weeks           |
+| Training infrastructure and pipeline for our o1-style data (both SFT and RLHF)            | 1 month             |
+| A new chatbot arena for evaluating and comparing the thinking process of different models | 1 month             |
+| Reproducing the two o1 scaling laws both at training time (RLHF) and inference time       | 2~3 months          |
+
+
+
+## Citation
+If you find our model, data, code useful, welcome to cite our paper
+```
+@article{
+    supplement,
+    title={},
+    author={OpenO1 Team},
+    journal={},
+    url={},
+    year={}
+}
+```
+## Acknowledgements(Updating)
+This repo benefits from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF), [awesome-o1](https://github.com/hijkzzz/Awesome-LLM-Strawberry). Thanks for their wonderful and solid works.
+
+## Feedback
+If you have any questions, please submit them through GitHub Issues.
+- Before doing so, we encourage you to review the FAQ section to see if your question has already been addressed, and check previous issues for any relevant discussions.
+- Please kindly use our dedicated issue template for submitting. 
+- Appreciate your politeness and cooperation in fostering a positive and collaborative community.
+
 ## ✍Example Demonstrations
 ### Reasoning Case
+- strawberry里有几个r？
+***
+- 9.11和9.9哪个更大？
+***
+
+### Coding
+- 用python实现一个linux终端贪食蛇。上下左右控制移动，写到代码块中。
+***
+- 用数字1~8标注的棋子摆放在一个3×3共9个格子的棋盘上，空出一个格子使棋子能在盘内水平滑动，8个符号在棋盘上的排列称为8数码的状态，游戏要求给定一个初始的状态和一个终止的状态("12345678.")，且每次只能移动一个棋子，求从任一初始棋局变化到另一目标棋局是否有解，以及有解时的解法。
+python实现，放到代码块中。
+***
+
+### Math
+- 每天早上，Aya都会散步 9 公里，然后在咖啡店结束。一天，她以每小3时 s 公里的速度行走，这次散步需要 4 小时，包括在咖啡店停留 t 分钟。另一天，她以每小时 s+2 公里的速度行走，这次散步需要 2 小时和 24 分钟，包括在咖啡店停留 t 分钟。如果今天早上她以每小时 s+(1/2）公里的速度行走，那么这次散步将花费多少分钟，包括在咖啡店停留 t 分钟？
+***
+- There exist real numbers $x$ and $y$, both greater than 1, such that $\log_x\left(y^x\right)=\log_y\left(x^{4y}\right)=10$. Find $xy$.
+***
+### Physics
+- 一辆小车在水平圆周轨道上匀速行驶，轨道的半径为 r=10 m。已知小车的线速度为 v=20 m/s。如果小车的质量为 m=500 kg，求其向心力 Fc。
+***
+- 假设一个宇航员在一艘以接近光速（0.8c）飞行的宇宙飞船中，进行了一次实验。宇航员在飞船上观察到一根长度为1.5米的光杆（在飞船静止时的长度）。根据狭义相对论，观察者在地面上会测量到光杆的长度多长？请使用洛伦兹收缩公式。
+***
+### Cipher
+- Prompt: You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
+2. Follow the specified encryption or decryption operations precisely as described in the rules.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Cipher Rule:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - encryption_table = {
+    'A': '!', 'B': '@', 'C': '#', 'D': '$',
+    'E': '%', 'F': '^', 'G': '&', 'H': '*',
+    'I': '(', 'J': ')', 'K': '_', 'L': '+',
+    'M': '=', 'N': '~', 'O': '?', 'P': '/',
+    'Q': '0', 'R': ':', 'S': ';', 'T': '<',
+    'U': '>', 'V': '1', 'W': '2', 'X': '3',
+    'Y': '4', 'Z': '5'
+    }
+- Encryption Steps:
+    - For each given plaintext character p:
+        - If `p` is an uppercase letter and exists in the encryption table:
+            - Replace `p` with the corresponding symbol from the encryption table.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - encryption_table = {
+    'A': '!', 'B': '@', 'C': '#', 'D': '$',
+    'E': '%', 'F': '^', 'G': '&', 'H': '*',
+    'I': '(', 'J': ')', 'K': '_', 'L': '+',
+    'M': '=', 'N': '~', 'O': '?', 'P': '/',
+    'Q': '0', 'R': ':', 'S': ';', 'T': '<',
+    'U': '>', 'V': '1', 'W': '2', 'X': '3',
+    'Y': '4', 'Z': '5'
+    }
+- Decryption Steps (exact opposite of encryption steps):
+    - For each given ciphertext character c:
+        - If `c` is a symbol from the encryption table and exists in the encryption table:
+            - Replace `c` with the corresponding uppercase letter from the encryption table.
+
+### Question:
+Plaintext: \"L\"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+### Answer:
+***
+- You are an intelligent assistant that specializes in encryption and decryption tasks. Below are the rules for a specific cipher. When responding, please ensure that your output adheres to the specified encryption and decryption rules and format.
+
+### Instructions:
+
+1. Identify the relevant properties and objects specified in the rule, including the plaintext, keyword, and ciphertext.
+2. Follow the specified encryption or decryption operations precisely as described in the rules.
+3. Ensure your output is formatted according to the specified notation and symbols.
+
+### Cipher Rule:
+
+**Encryption Rules:**
+
+- Input:
+    - Plaintext: Uppercase letters string without punctuation and spaces.
+- Output:
+    - Ciphertext: Uppercase letters string.
+- Preparation:
+    - encryption_table = {
+    'A': '!', 'B': '@', 'C': '#', 'D': '$',
+    'E': '%', 'F': '^', 'G': '&', 'H': '*',
+    'I': '(', 'J': ')', 'K': '_', 'L': '+',
+    'M': '=', 'N': '~', 'O': '?', 'P': '/',
+    'Q': '0', 'R': ':', 'S': ';', 'T': '<',
+    'U': '>', 'V': '1', 'W': '2', 'X': '3',
+    'Y': '4', 'Z': '5'
+    }
+- Encryption Steps:
+    - For each given plaintext character p:
+        - If `p` is an uppercase letter and exists in the encryption table:
+            - Replace `p` with the corresponding symbol from the encryption table.
+
+ **Decryption Rules:**
+
+- Input:
+    - Ciphertext: Uppercase letters string.
+- Output:
+    - Plaintext: Uppercase letters string.
+- Preparation:
+    - encryption_table = {
+    'A': '!', 'B': '@', 'C': '#', 'D': '$',
+    'E': '%', 'F': '^', 'G': '&', 'H': '*',
+    'I': '(', 'J': ')', 'K': '_', 'L': '+',
+    'M': '=', 'N': '~', 'O': '?', 'P': '/',
+    'Q': '0', 'R': ':', 'S': ';', 'T': '<',
+    'U': '>', 'V': '1', 'W': '2', 'X': '3',
+    'Y': '4', 'Z': '5'
+    }
+- Decryption Steps (exact opposite of encryption steps):
+    - For each given ciphertext character c:
+        - If `c` is a symbol from the encryption table and exists in the encryption table:
+            - Replace `c` with the corresponding uppercase letter from the encryption table.
+
+### Question:
+Plaintext: \"FK\"
+
+Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
+
+### Answer:
+***
+
 ### Case-1
 #### 📋Input
 
@@ -1729,133 +2000,4 @@ Alright, I need to determine Bob's attitude towards the proposition based on the
 #### 📝OutPut
 
 [[B]]
-
-## 💯System Performance
-
-The following table provides a comprehensive comparison of the performance between **llama3.1-8b-instruct** and our model across multiple benchmarks. These evaluations were conducted in a **zero-shot setting**, meaning the models were tested without task-specific fine-tuning, highlighting their ability to generalize across diverse tasks. These benchmarks assess various aspects of reasoning, knowledge, and understanding in different domains, offering a clear indication of how each model handles complex tasks without prior exposure or specific task-related training. Our model consistently demonstrates competitive or superior performance, showcasing advancements in areas critical to reasoning, mathematical understanding, and general AI capabilities.
-
-| Model                   | GSM8K| MATH| MMLU| Hellaswag| ARC-C| BBH|
-| ----------------------- | :---------------: | :------------: | :--------------: | :-----------: | :-----------: | :-----------: |
-| llama3.1-8b-instruct |       84.00       |     47.42     |       67.95      |   **68.43** |   83.87      | 53.64 |
-| Ours      |       **85.82**        |      **52.88**     |       **70.45**      |  67.77 |    **86.52**      | **58.43** | 
-
-
-- **GSM8K**: Our model outperforms **llama3.1-8b-instruct** with a score of **85.82**, demonstrating better reasoning ability in math word problems.
-- **MATH**: It's important to note that the official score for **llama3.1-8b-instruct** on MATH is **51.9**, but this was achieved in a CoT (Chain of Thought) setting. In our evaluation, we reproduced the result in a zero-shot setting, where **llama3.1-8b-instruct** scored lower at **47.42**, while our model achieved **52.88**, showing a significant improvement.
-- **MMLU**: Our model leads with **70.45**, indicating stronger general knowledge and understanding.
-- **Hellaswag**: **llama3.1-8b-instruct** scores **68.43**, slightly ahead of our model at **67.77**.
-- **ARC-C**: In ARC-C, our model reaches **86.52**, outperforming **llama3.1-8b-instruct**.
-- **BBH**: Our model achieves **58.43**, surpassing **llama3.1-8b-instruct**’s score of **53.64**.
-
-The results highlights our model's superior performance in most benchmarks, with notable improvements in MATH, MMLU, ARC-C, and BBH.
-
-## 🎋Training Details
-The training process for Open O1 utilizes the configuration settings from Llama Factory to optimize performance. This section includes details on the datasets used, training methodologies, and relevant hyperparameters.
-
-### model
-```
-qwen2.5-7b-ins-x
-llama3.1-8b-ins-x
-```
-
-### method
-```
-stage: sft
-do_train: true
-finetuning_type: full
-deepspeed: ds_z3_config.json
-```
-
-### dataset
-```
-dataset: 4o_response
-template: llama3
-cutoff_len: 4096
-overwrite_cache: true
-preprocessing_num_workers: 16
-```
-
-### output
-```
-logging_steps: 10
-save_steps: 1000
-plot_loss: true
-overwrite_output_dir: true
-```
-
-### train
-```
-per_device_train_batch_size: 4
-gradient_accumulation_steps: 2
-learning_rate: 1.0e-5
-num_train_epochs: 3.0
-lr_scheduler_type: cosine
-warmup_ratio: 0.1
-bf16: true
-ddp_timeout: 180000000
-```
-
-### eval
-```
-val_size: 0.1
-per_device_eval_batch_size: 1
-eval_strategy: steps
-eval_steps: 200
-```
-
-## 🍭Available Models
-- llama3.1-8b-ins-x
-- qwen2.5-7b-ins-x
-
-## ❓FAQ
-To Supplement
-
-## ⚠️Limitations
-Open O1 is currently in its early stages of development. Open O1 primarily exhibits o1-like reasoning characteristics and broad search thinking capabilities. However, there is still significant progress to be made before it fully achieves O1 capabilities.
-
-## ⭐Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=OpenSource-O1/Open-O1&type=Date)](https://star-history.com/#OpenSource-O1/Open-O1&Date)
-
-## Reference
-
-- [Learning to Reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/) – A detailed blog post by OpenAI discussing methods to enhance reasoning abilities in large language models.
-  
-- [OpenAI O1 Mini: Advancing Cost-Efficient Reasoning](https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/) – An OpenAI blog that introduces the O1 Mini model and explores its efficiency in reasoning tasks.
-
-- [Awesome-LLM-Strawberry](https://github.com/hijkzzz/Awesome-LLM-Strawberry) – A curated list of resources and tools related to large language models (LLMs) and reasoning capabilities, including O1.
-
-
-## Future Todo
-
-| Task                                                                                     | Estimated Schedule  |
-|------------------------------------------------------------------------------------------|---------------------|
-| Releasing our first version of SFT data that comprises o1-style thinking process          | 1~2 weeks           |
-| Reward model (and the corresponding data) for judging the thinking process of each model  | 2~3 weeks           |
-| Training infrastructure and pipeline for our o1-style data (both SFT and RLHF)            | 1 month             |
-| A new chatbot arena for evaluating and comparing the thinking process of different models | 1 month             |
-| Reproducing the two o1 scaling laws both at training time (RLHF) and inference time       | 2~3 months          |
-
-
-
-## Citation
-If you find our model, data, code useful, welcome to cite our paper
-```
-@article{
-    supplement,
-    title={},
-    author={OpenO1 Team},
-    journal={},
-    url={},
-    year={}
-}
-```
-## Acknowledgements(Updating)
-This repo benefits from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF), [awesome-o1](https://github.com/hijkzzz/Awesome-LLM-Strawberry). Thanks for their wonderful and solid works.
-
-## Feedback
-If you have any questions, please submit them through GitHub Issues.
-- Before doing so, we encourage you to review the FAQ section to see if your question has already been addressed, and check previous issues for any relevant discussions.
-- Please kindly use our dedicated issue template for submitting. 
-- Appreciate your politeness and cooperation in fostering a positive and collaborative community.
 

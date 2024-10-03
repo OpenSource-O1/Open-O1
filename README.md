@@ -140,13 +140,13 @@ Open O1 is currently in its early stages of development. Open O1 primarily exhib
 
 ## ✍Example Demonstrations
 ### Reasoning Case
-- [Reasoning Case1](#Reasoning-Case2)
+- [Reasoning Case1](#Reasoning-Case1)
 - [Reasoning Case2](#Reasoning-Case2)
 ***
 
 ### Coding
-- [Codeing Case1](#Codeing-Case1)
-- [Codeing Case2](#Coding-Case2)
+- [Coding Case1](#Coding-Case1)
+- [Coding Case2](#Coding-Case2)
 ***
 
 ### Math
@@ -159,7 +159,7 @@ Open O1 is currently in its early stages of development. Open O1 primarily exhib
 ***
 ### Cipher
 - [Cipher Case1](#Cipher-Case1)
-- [Cipher Case2](#Cipher-Case1)
+- [Cipher Case2](#Cipher-Case2)
 ***
 ### Counterfactual
 - [Counterfactual Case1](#Counterfactual-Case1)
@@ -167,7 +167,7 @@ Open O1 is currently in its early stages of development. Open O1 primarily exhib
 ***
 ### Data Analysis
 - [Data Analysis Case1](#Data-Analysis-Case1)
-- [Data Analysis Case1](#Data-Analysis-Case1)
+- [Data Analysis Case2](#Data-Analysis-Case2)
 ***
 ### Administrative Aptitude Test(AAT)
 - [AAT Case1](#AAT-Case1)
@@ -249,7 +249,7 @@ No other letters in the word are 'r's. Therefore, my final count is three 'r's i
 #### 📝OutPut
 
 strawberry里有3个r。
-
+***
 
 <a id="Reasoning-Case2"></a>
 ### Reasoning Case2
@@ -299,8 +299,9 @@ strawberry里有3个r。
 #### 📝OutPut
 
 9.9更大。
+***
 
-<a id="Codeing Case1"></a>
+<a id="Coding Case1"></a>
 ### Coding Case1
 #### 📋Input
 
@@ -337,7 +338,6 @@ Next, I'll outline the key components of the snake game:
 Throughout the implementation, I'll need to ensure that the game handles edge cases gracefully, such as the snake wrapping around the screen or managing rapid key presses that could cause unexpected behavior.
 
 Now, I'll proceed to write the Python code that encapsulates all these components within a code block as requested.
-
 
 #### 📝OutPut
 ```
@@ -429,6 +429,7 @@ def main(stdscr):
 
 curses.wrapper(main)
 ```
+***
 
 <a id="Coding-Case2"></a>
 ### Coding Case2
@@ -436,7 +437,6 @@ curses.wrapper(main)
 
 用数字1~8标注的棋子摆放在一个3×3共9个格子的棋盘上，空出一个格子使棋子能在盘内水平滑动，8个符号在棋盘上的排列称为8数码的状态，游戏要求给定一个初始的状态和一个终止的状态("12345678.")，且每次只能移动一个棋子，求从任一初始棋局变化到另一目标棋局是否有解，以及有解时的解法。
 python实现，放到代码块中。
-
 
 #### 💡Thought
 
@@ -523,13 +523,13 @@ if __name__ == "__main__":
     initial_state = input("请输入初始状态（例如：12345678.）：")
     solve_8_puzzle(initial_state)
 ```
+***
 
 <a id="Math-Case1"></a>
 ### Math Case1
 #### 📋Input
 
 每天早上，Aya都会散步 9 公里，然后在咖啡店结束。一天，她以每小3时 s 公里的速度行走，这次散步需要 4 小时，包括在咖啡店停留 t 分钟。另一天，她以每小时 s+2 公里的速度行走，这次散步需要 2 小时和 24 分钟，包括在咖啡店停留 t 分钟。如果今天早上她以每小时 s+(1/2）公里的速度行走，那么这次散步将花费多少分钟，包括在咖啡店停留 t 分钟？
-
 
 #### 💡Thought
 
@@ -598,7 +598,7 @@ if __name__ == "__main__":
 #### 📝OutPut
 
 通过计算得出，今天早上Aya以每小时s+(1/2)公里的速度行走，散步将花费6小时，包括在咖啡店停留t分钟。
-
+***
 
 <a id="Math-Case2"></a>
 ### Math Case2
@@ -765,6 +765,7 @@ But to ensure accuracy, let's consider that $k=1.995$ is a close approximation. 
 #### 📝OutPut
 
 $xy = 125$
+***
 
 <a id="Physics-Case1"></a>
 ### Physics Case1
@@ -775,8 +776,55 @@ $xy = 125$
 
 #### 💡Thought
 
+Alright, I need to determine the centripetal force acting on a small car moving uniformly along a horizontal circular track. The given parameters are the radius of the track \( r = 10 \, \text{m} \), the linear velocity \( v = 20 \, \text{m/s} \), and the mass of the car \( m = 500 \, \text{kg} \).
+
+First, let's recall the formula for centripetal force, which is essential for analyzing the forces acting on an object moving in a circular path. The general formula is:
+
+\[
+F_c = \frac{mv^2}{r}
+\]
+
+Here, \( F_c \) represents the centripetal force, \( m \) is the mass of the object, \( v \) is its linear velocity, and \( r \) is the radius of the circular path.
+
+Let's substitute the given values into this formula step by step to calculate the centripetal force.
+
+1. **Substitute the values:**
+
+\[
+F_c = \frac{500 \, \text{kg} \times (20 \, \text{m/s})^2}{10 \, \text{m}}
+\]
+
+2. **Calculate the square of the velocity:**
+
+\[
+v^2 = (20 \, \text{m/s})^2 = 400 \, \text{m}^2/\text{s}^2
+\]
+
+3. **Multiply the mass by the squared velocity:**
+
+\[
+500 \, \text{kg} \times 400 \, \text{m}^2/\text{s}^2 = 200,000 \, \text{kg} \cdot \text{m}^2/\text{s}^2
+\]
+
+4. **Divide by the radius to find the centripetal force:**
+
+\[
+F_c = \frac{200,000 \, \text{kg} \cdot \text{m}^2/\text{s}^2}{10 \, \text{m}} = 20,000 \, \text{N}
+\]
+
+So, the centripetal force acting on the car is **20,000 Newtons (N)**.
+
+But let's double-check to ensure there are no mistakes:
+
+- Recalculating \( v^2 \): \( 20^2 = 400 \)
+- Multiplying by mass: \( 500 \times 400 = 200,000 \)
+- Dividing by radius: \( 200,000 / 10 = 20,000 \)
+
+Everything checks out. Therefore, the calculated centripetal force is accurate.
 
 #### 📝OutPut
+向心力 \( F_c \) 为 20,000 N。
+***
 
 <a id="Physics-Case2"></a>
 ### Physics Case2
@@ -786,9 +834,70 @@ $xy = 125$
 
 
 #### 💡Thought
+<Thought>
+Alright, I need to determine the length of a light rod as measured by an observer on Earth, given that it was measured as 1.5 meters in the rest frame of the spaceship. The spaceship is traveling at a speed of 0.8 times the speed of light (0.8c) relative to Earth. This problem involves applying the concept of length contraction from special relativity, which is described by the Lorentz contraction formula.
 
+First, let's recall the Lorentz contraction formula:
+
+\[
+L = L_0 \sqrt{1 - \frac{v^2}{c^2}}
+\]
+
+Where:
+- \( L \) is the length of the object as measured by the observer in motion (on Earth).
+- \( L_0 \) is the proper length of the object (as measured in its rest frame, which is 1.5 meters in this case).
+- \( v \) is the relative velocity between the observer and the object.
+- \( c \) is the speed of light in vacuum.
+
+Given:
+- \( L_0 = 1.5 \, \text{meters} \)
+- \( v = 0.8c \)
+
+Substituting the known values into the formula:
+
+\[
+L = 1.5 \times \sqrt{1 - (0.8)^2}
+\]
+
+First, calculate \( v^2 \):
+
+\[
+v^2 = (0.8)^2 = 0.64
+\]
+
+Then, substitute \( v^2 \) into the equation:
+
+\[
+L = 1.5 \times \sqrt{1 - 0.64} = 1.5 \times \sqrt{0.36}
+\]
+
+Calculate the square root:
+
+\[
+\sqrt{0.36} = 0.6
+\]
+
+Now, multiply by \( L_0 \):
+
+\[
+L = 1.5 \times 0.6 = 0.9 \, \text{meters}
+\]
+
+So, according to the Lorentz contraction formula, the length of the light rod as measured by an observer on Earth would be 0.9 meters.
+
+But let's double-check the calculations to ensure accuracy:
+
+1. \( v = 0.8c \)
+2. \( v^2 = 0.64 \)
+3. \( 1 - 0.64 = 0.36 \)
+4. \( \sqrt{0.36} = 0.6 \)
+5. \( 1.5 \times 0.6 = 0.9 \, \text{meters} \)
+
+Everything checks out. Therefore, the calculated length is correct.
 
 #### 📝OutPut
+根据洛伦兹收缩公式，地球上观察者测量到的光杆长度为 0.9 米。
+***
 
 <a id="Cipher-Case1"></a>
 ### Cipher Case1
@@ -846,12 +955,10 @@ Prompt: You are an intelligent assistant that specializes in encryption and decr
         - If `c` is a symbol from the encryption table and exists in the encryption table:
             - Replace `c` with the corresponding uppercase letter from the encryption table.
 
-### Question:
+##### Question:
 Plaintext: \"L\"
 
 Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
-
-### Answer:
 
 #### 💡Thought
 
@@ -894,6 +1001,7 @@ Thus, the final encrypted answer is [[+]].
 #### 📝OutPut
 
 [[+]]
+***
 
 <a id="Cipher-Case2"></a>
 ### Cipher Case2
@@ -956,8 +1064,6 @@ Plaintext: \"FK\"
 
 Please provide the encrypted answer, encapsulated in double square brackets. For example, the format should be: [[encrypted answer]].
 
-### Answer:
-
 #### 💡Thought
 
 Alright, I need to encrypt the plaintext "FK" using the provided cipher rules. Let's break down the process step by step to ensure accuracy.
@@ -1019,6 +1125,7 @@ The encrypted version of "FK" is "^_". To adhere to the specified format, we'll 
 #### 📝OutPut
 
 [[^_]]
+***
 
 <a id="Counterfactual-Case1"></a>
 Counterfactual Case1
@@ -1060,16 +1167,28 @@ Which important event took place on 1906?
 Options: A.The Brussels International Exposition is held##B.Norwegian playwright Henrik Ibsen died##C.Maxwell's last act##D.The Old Mill crossing is constructed
 Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
 
-### Answer:
-
-Answer: 
-
-
 #### 💡Thought
+Alright, I need to determine which important event took place on April 17, 1906, based on the information provided. Let's start by examining the options:
 
+**Option A:** The Brussels International Exposition is held.
+- I recall that the Brussels International Exposition was a major event in 1905, but the specific date of April 17, 1906, doesn't immediately ring a bell for me. It might be possible, but I'm not entirely confident about its exact timing.
+
+**Option B:** Norwegian playwright Henrik Ibsen died.
+- Henrik Ibsen was indeed a significant figure, but I don't remember his exact date of death being April 17, 1906. I think he died earlier than 1906, possibly in 1906, but I need to confirm this.
+
+**Option C:** Maxwell's last act.
+- The story mentions that the date of Maxwell's last act is April 17, 1906. This seems directly relevant and provides a specific event tied to that date.
+
+**Option D:** The Old Mill crossing is constructed.
+- I'm not aware of any historical event related to the construction of the Old Mill crossing on April 17, 1906. This option seems less likely based on the information at hand.
+
+Considering all these points, while Options B and C are about notable events, Maxwell's last act is the one explicitly mentioned in the story with the exact date provided. The Brussels Exposition and the Old Mill crossing are either less likely or not directly tied to the given date. 
+
+Therefore, the most accurate answer based on the provided information is Maxwell's last act.
 
 #### 📝OutPut
-
+[[C]]
+***
 
 <a id="Cipher-Case2"></a>
 ### Cipher Case2
@@ -1111,8 +1230,6 @@ Options: A. Police force##B. Legal system##C. The Order of the Knights of Pluto#
 
 Provide your final answer as a single uppercase letter representing the option (A, B, C, or D) and wrap it in double square brackets, like this: [[A]].
 
-### Answer:
-
 #### 💡Thought
 
 Because of "Provide your final answer as a single uppercase letter representing the option(A, B, C, or D)", the output does not show the progress of thought.
@@ -1120,6 +1237,7 @@ Because of "Provide your final answer as a single uppercase letter representing 
 #### 📝OutPut
 
 [[C]]
+***
 
 <a id="Data-Analysis-Case1"></a>
 ### Data Analysis Case1
@@ -1203,6 +1321,7 @@ While the diagnosis and laboratory results appear accurate, the treatment plan o
 #### 📝OutPut
 
 该医疗数据在诊断和实验室结果方面看起来是有效的，但在治疗方案中存在严重问题。患者对青霉素过敏，而所开具的药物是阿莫西林，属于青霉素类抗生素。这可能导致不良反应，如过敏性休克。因此，治疗方案的有效性受到质疑，需要重新评估并选择适合患者的替代治疗方案。
+***
 
 <a id="Data-Analysis-Case2"></a>
 ### Data Analysis Case2
@@ -1293,13 +1412,13 @@ The medical data provided is valid and the treatment plan appears appropriate fo
 #### 📝OutPut
 
 该医疗数据在诊断和实验室结果方面是有效的，治疗方案也符合prediabetes的治疗标准。患者血糖水平正常，没有已知过敏，且有高血压病史，这与糖尿病前期的诊断相一致。当前的治疗计划包括继续使用二甲双胍，并结合饮食控制和运动，这是预防糖尿病进展的有效措施。
+***
 
 <a id="AAT-Case1"></a>
 ### AAT Case1
 #### 📋Input
 
 某工厂6月份比上月增产10%，7月份比上月却减产10%。请问，7月份的产量比5月份的产量多还是少？
-
 
 #### 💡Thought
 
@@ -1359,13 +1478,13 @@ Understanding how percentage changes affect quantities is essential in various f
 #### 📝OutPut
 
 7月份的产量比5月份的产量少。
+***
 
 <a id="AAT-Case2"></a>
 ### AAT Case2
 #### 📋Input
 
 一项工程，山东队独做需15天完成，江苏队独做需10天完成。两队合作，几天可以完成？
-
 
 #### 💡Thought
 Alright, I need to determine how long it takes for two teams, the Shandong team and the Jiangsu team, to complete a project together. Let's break down the information given:
@@ -1424,10 +1543,10 @@ Since the combined work equals 1 (the whole project), the calculation is correct
 **Conclusion**
 After carefully calculating and verifying, it's clear that the Shandong and Jiangsu teams working together can complete the project in 6 days.
 
-
 #### 📝OutPut
 
 两队合作可以在6天内完成这项工程。
+***
 
 <a id="Puzzle-Case1"></a>
 ### Puzzle Case1
@@ -1537,6 +1656,7 @@ Thus, the minimum number of steps needed is **2**.
 #### 📝OutPut
 
 从"MOM"到"DAD"需要2步。
+***
 
 <a id="Puzzle-Case2"></a>
 ### Puzzle Case2
@@ -1730,6 +1850,7 @@ Under the given constraints, transforming "POOR" to "RICH" is not possible as it
 #### 📝OutPut
 
 从"POOR"到"RICH"无法在给定的条件下完成。
+***
 
 <a id="Logic-Case1"></a>
 ### Logic Case1
@@ -1766,9 +1887,6 @@ Which method of reasoning does this argument follow:
 A. Ψ Method             B. ⌘ Method
 
 Please provide the answer in the format [[A/B]].
-
-### Answer:
-
 
 #### 💡Thought
 
@@ -1818,6 +1936,7 @@ The scientists observed that deep-sea environments lack key attributes (sunlight
 #### 📝OutPut
 
 [[B]]
+***
 
 <a id="Logic-Case2"></a>
 ### Logic Case2
@@ -1871,8 +1990,6 @@ C. Bob's attitude towards this proposition is uncertain.
 
 Please provide the answers in the format [[A/B/C]].
 
-### Answer:
-
 #### 💡Thought
 
 Alright, I need to determine Bob's attitude towards the proposition based on the given Axiom of Transitivity. Let's break down the information provided:
@@ -1906,4 +2023,4 @@ Alright, I need to determine Bob's attitude towards the proposition based on the
 #### 📝OutPut
 
 [[B]]
-
+***

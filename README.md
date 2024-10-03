@@ -174,54 +174,44 @@ If you have any questions, please submit them through GitHub Issues.
 ## ✍Example Demonstrations
 ### Reasoning Case
 - Reasoning Case1(#Reasoning-Case1)
-***
 - Reasoning Case2(#Reasoning-Case2)
 ***
 
 ### Coding
 - Codeing Case1(#Codeing-Case1)
-***
 - Codeing Case2(#Coding-Case2)
 ***
 
 ### Math
 - Math Case1(#Math-Case1)
-***
 - Math Case2(#Math-Case2)
 ***
 ### Physics
 - Physics Case1(#Physics-Case1)
-***
 - Physics Case2(#Physics-Case2)
 ***
 ### Cipher
 - Cipher Case1(#Cipher-Case1)
-***
 - Cipher Case2(#Cipher-Case1)
 ***
 ### Counterfactual
 - Counterfactual Case1(#Counterfactual-Case1)
-***
 - Counterfactual Case2(#Counterfactual-Case2)
 ***
 ### Data Analysis
 - Data Analysis Case1(#Data Analysis-Case1)
-***
 - Data Analysis Case1(#Data Analysis-Case1)
 ***
 ### Administrative Aptitude Test(AAT)
 - AAT Case1(#AAT-Case1)
-***
 - AAT Case2(#AAT-Case2)
 ***
 ### Puzzle
 - Puzzle Case1(#Puzzle-Case1)
-***
 - Puzzle Case2(#Puzzle-Case2)
 ***
 ### Logic
 - Logic Case1(#Logic-Case1)
-***
 - Logic Case2(#Logic-Case2)
 ***
 <a id="Reasoning Case1"></a>
@@ -257,7 +247,7 @@ No other letters in the word are 'r's. Therefore, my final count is three 'r's i
 strawberry里有3个r。
 
 
-### Case-2
+<a id="Reasoning Case2"></a>
 #### 📋Input
 
 9.11和9.9哪个更大？
@@ -305,9 +295,8 @@ strawberry里有3个r。
 
 9.9更大。
 
-
-### Coding
-### Case-1
+<a id="Codeing Case1"></a>
+### Coding Case1
 #### 📋Input
 
 用python实现一个linux终端贪食蛇。上下左右控制移动，写到代码块中。

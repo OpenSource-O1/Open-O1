@@ -780,47 +780,38 @@ Alright, I need to determine the centripetal force acting on a small car moving 
 
 First, let's recall the formula for centripetal force, which is essential for analyzing the forces acting on an object moving in a circular path. The general formula is:
 
-\[
-F_c = \frac{mv^2}{r}
-\]
+$$ F_c = \frac{mv^2}{r} $$
 
 Here, \( F_c \) represents the centripetal force, \( m \) is the mass of the object, \( v \) is its linear velocity, and \( r \) is the radius of the circular path.
 
 Let's substitute the given values into this formula step by step to calculate the centripetal force.
 
-1. **Substitute the values:**
+Substitute the values:
 
-\[
-F_c = \frac{500 \, \text{kg} \times (20 \, \text{m/s})^2}{10 \, \text{m}}
-\]
+$$ F_c = \frac{500 \, \text{kg} \times (20 \, \text{m/s})^2}{10 \, \text{m}} $$
 
-2. **Calculate the square of the velocity:**
+Calculate the square of the velocity:
 
-\[
-v^2 = (20 \, \text{m/s})^2 = 400 \, \text{m}^2/\text{s}^2
-\]
+$$ v^2 = (20 \, \text{m/s})^2 = 400 \, \text{m}^2/\text{s}^2 $$
 
-3. **Multiply the mass by the squared velocity:**
+Multiply the mass by the squared velocity:
 
-\[
-500 \, \text{kg} \times 400 \, \text{m}^2/\text{s}^2 = 200,000 \, \text{kg} \cdot \text{m}^2/\text{s}^2
-\]
+$$ 500 \, \text{kg} \times 400 \, \text{m}^2/\text{s}^2 = 200,000 \, \text{kg} \cdot \text{m}^2/\text{s}^2 $$
 
-4. **Divide by the radius to find the centripetal force:**
+Divide by the radius to find the centripetal force:
 
-\[
-F_c = \frac{200,000 \, \text{kg} \cdot \text{m}^2/\text{s}^2}{10 \, \text{m}} = 20,000 \, \text{N}
-\]
+$$ F_c = \frac{200,000 \, \text{kg} \cdot \text{m}^2/\text{s}^2}{10 \, \text{m}} = 20,000 \, \text{N} $$
 
-So, the centripetal force acting on the car is **20,000 Newtons (N)**.
+So, the centripetal force acting on the car is 20,000 Newtons (N).
 
 But let's double-check to ensure there are no mistakes:
 
-- Recalculating \( v^2 \): \( 20^2 = 400 \)
-- Multiplying by mass: \( 500 \times 400 = 200,000 \)
-- Dividing by radius: \( 200,000 / 10 = 20,000 \)
+Recalculating \( v^2 \): \( 20^2 = 400 \)  
+Multiplying by mass: \( 500 \times 400 = 200,000 \)  
+Dividing by radius: \( 200,000 / 10 = 20,000 \)
 
 Everything checks out. Therefore, the calculated centripetal force is accurate.
+
 
 #### 📝OutPut
 向心力 \( F_c \) 为 20,000 N。

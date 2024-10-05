@@ -64,7 +64,21 @@ To quickly get started with **Open O1**, we provide some steps for you to enjoy 
 Go to [open-o1](https://huggingface.co/spaces/happzy2633/open-o1/blob/main/README.md) huggingface repository to deploy models.
 
 ### 💬Chat templates
-Supplement
+The chat templates of Open O1 is following LLaMA3.1's. The details can be obtained in [chat-templates](https://github.com/meta-llama/llama3/blob/main/llama/tokenizer.py).
+'''
+dialog = [
+    {"role": "user", "content": "What's the weather like today?"},
+    {"role": "assistant", "content": "It's sunny and warm, around 75°F."}
+]
+
+After using chat templates to process
+
+<|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+What's the weather like today?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+It's sunny and warm, around 75°F.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+'''
 
 ## 💯System Performance
 

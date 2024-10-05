@@ -20,12 +20,16 @@ As the Open O1 project progresses, we will continue to push the boundaries of wh
 ## 🍓How many letters 'r' in the word 'strawberry'?
 
 ## 📋
-<pre class="andromeeda" style="background-color:#23262E;color:#D5CED9" tabindex="0"><code><div class="line"><span style="color:#FF00AA">Input</span></div><div class="line"><span style="color:#D5CED9">How many letters 'r' in the word 'strawberry'?</span></div></code></pre>
+```
+Input
 
+How many letters 'r' in the word 'strawberry'?
+```
 
 ## 💡
 ```
 Thought
+
 Alright, I need to determine how many letters 'r' are in the word "strawberry." Let's start by looking at the word step by step. The word "strawberry" has several letters, and I'll list them out: s, t, r, a, w, b, e, r, r, y. Now, focusing on the letter 'r,' I can count each occurrence. 
 
 First, there's an 'r' in the third position after the 's.' Then, there's another 'r' in the eighth position before the 'y.' Additionally, there's an 'r' in the ninth position, making it three 'r's in total. To be thorough, I'll double-check by counting again: 1st letter is 's,' 2nd is 't,' 3rd is 'r'—count, 4th is 'a,' 5th is 'w,' 6th is 'b,' 7th is 'e,' 8th is 'r,' 9th is 'r,' 10th is 'r,' and finally, 11th is 'y.' Yes, that confirms it—the letter 'r' appears three times.
@@ -40,6 +44,7 @@ In summary, after carefully examining each letter in "strawberry" and recounting
 ## 📝
 ```
 Output
+
 There are three letters 'r' in the word 'strawberry'.
 ```
 

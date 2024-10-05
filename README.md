@@ -57,8 +57,8 @@ coming...
 ### 💻Model Deployment
 To quickly get started with **Open O1**, we provide some steps for you to enjoy our model.
 #### Model Download
-- llama3.1-8b-ins-x
-- qwen2.5-7b-ins-x
+- OpenO1-V1-LLaMa-8B 
+- OpenO1-V1-Qwen-7B
   
 ### Deployment
 Go to [open-o1](https://huggingface.co/spaces/happzy2633/open-o1/blob/main/README.md) huggingface repository to deploy models.
@@ -85,7 +85,7 @@ The following table provides a comprehensive comparison of the performance betwe
 | Model                   | GSM8K| MATH| MMLU| Hellaswag| ARC-C| BBH|
 | ----------------------- | :---------------: | :------------: | :--------------: | :-----------: | :-----------: | :-----------: |
 | llama3.1-8b-instruct |       84.00       |     47.42     |       67.95      |   **68.43** |   83.87      | 53.64 |
-| Ours      |       **85.82**        |      **52.88**     |       **70.45**      |  67.77 |    **86.52**      | **58.43** | 
+| Ours(OpenO1-V1-LLaMa-8B) |       **85.82**        |      **52.88**     |       **70.45**      |  67.77 |    **86.52**      | **58.43** | 
 
 
 - **GSM8K**: Our model outperforms **llama3.1-8b-instruct** with a score of **85.82**, demonstrating better reasoning ability in math word problems.
@@ -102,8 +102,8 @@ The training process for Open O1 utilizes the configuration settings from Llama 
 
 ### model
 ```
-qwen2.5-7b-ins-x
-llama3.1-8b-ins-x
+OpenO1-V1-LLaMa-8B
+OpenO1-V1-Qwen-7B
 ```
 
 ### method
@@ -152,8 +152,8 @@ eval_steps: 200
 ```
 
 ## 🍭Available Models
-- llama3.1-8b-ins-x
-- qwen2.5-7b-ins-x
+- OpenO1-V1-Qwen-7B
+- OpenO1-V1-LLaMa-8B
 
 ## ❓FAQ
 Summarizing and updating...

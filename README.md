@@ -9,7 +9,8 @@
 
 [![License](https://img.shields.io/github/license/OpenSource-O1/Open-O1)](https://github.com/wjn1996/Awesome-LLM-Reasoning-Openai-o1-Survey/blob/main/LICENSE)  ![Stars](https://img.shields.io/github/stars/OpenSource-O1/Open-O1?color=yellow)  ![Forks](https://img.shields.io/github/forks/OpenSource-O1/Open-O1?color=9cf)
 
-🤗Huggingface：[OpenO1](https://opensource-o1.github.io/)
+🍓Homepage：[OpenO1](https://opensource-o1.github.io/)
+🤗Huggingface: [OpenO1](https://huggingface.co/O1-OPEN)
 🤖Discord：[OpenO1-Discord](https://discord.gg/GZRazpv6)
 🪩Slack：[OpenO1-Slack](https://join.slack.com/t/openo1team/shared_invite/zt-2s55pxob5-lUcOu1zpiZajzFjQv6WZVQ)
 

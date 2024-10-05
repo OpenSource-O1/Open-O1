@@ -70,13 +70,11 @@ dialog = [
     {"role": "user", "content": "What's the weather like today?"},
     {"role": "assistant", "content": "It's sunny and warm, around 75°F."}
 ]
-
-After using chat templates to process
-
+```
+After using chat templates to process, the converted result is as follows：
+```
 <|begin_of_text|><|start_header_id|>user<|end_header_id|>
-
 What's the weather like today?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
 It's sunny and warm, around 75°F.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
 ```
 

@@ -9,6 +9,10 @@
 
 [![License](https://img.shields.io/github/license/OpenSource-O1/Open-O1)](https://github.com/wjn1996/Awesome-LLM-Reasoning-Openai-o1-Survey/blob/main/LICENSE)  ![Stars](https://img.shields.io/github/stars/OpenSource-O1/Open-O1?color=yellow)  ![Forks](https://img.shields.io/github/forks/OpenSource-O1/Open-O1?color=9cf)
 
+🤗Huggingface：[OpenO1](https://opensource-o1.github.io/)
+🤖Discord：[OpenO1-Discord](https://discord.gg/GZRazpv6)
+🪩Slack：[OpenO1-Slack](https://join.slack.com/t/openo1team/shared_invite/zt-2s55pxob5-lUcOu1zpiZajzFjQv6WZVQ)
+
 ## 🌈Mission and Vision for future
 Our **Open O1** aims to match the powerful capabilities of the proprietary OpenAI O1 model, empowering the community with advanced open-source alternatives. Our model has been developed by curating a set of **O1-style** thought data, which was then used to train both LLaMA and Qwen models. This training approach has endowed the smaller models with enhanced long-reasoning and problem-solving capabilities.
 

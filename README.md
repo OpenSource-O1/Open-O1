@@ -65,7 +65,7 @@ Go to [open-o1](https://huggingface.co/spaces/happzy2633/open-o1/blob/main/READM
 
 ### 💬Chat templates
 The chat templates of Open O1 is following LLaMA3.1's. The details can be obtained in [chat-templates](https://github.com/meta-llama/llama3/blob/main/llama/tokenizer.py).
-'''
+''' markdown
 dialog = [
     {"role": "user", "content": "What's the weather like today?"},
     {"role": "assistant", "content": "It's sunny and warm, around 75°F."}

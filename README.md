@@ -24,6 +24,7 @@ As the Open O1 project progresses, we will continue to push the boundaries of wh
 
 
 ## 💡
+```
 Thought
 Alright, I need to determine how many letters 'r' are in the word "strawberry." Let's start by looking at the word step by step. The word "strawberry" has several letters, and I'll list them out: s, t, r, a, w, b, e, r, r, y. Now, focusing on the letter 'r,' I can count each occurrence. 
 
@@ -34,10 +35,13 @@ But wait, could there be any other interpretations? Maybe considering uppercase 
 Is there a possibility of multiple meanings or contexts affecting the count? For example, in a different language or script, but assuming we're sticking to standard English spelling, the count should remain consistent. Also, considering the position of 'r's in the word, they are not repeated consecutively, which might affect certain linguistic analyses, but for the purpose of counting, their positions don't impact the total number.
 
 In summary, after carefully examining each letter in "strawberry" and recounting to ensure accuracy, I'm confident that the letter 'r' appears three times in the word.
+```
 
 ## 📝
+```
 Output
 There are three letters 'r' in the word 'strawberry'.
+```
 
 ## 🔔News
 coming...

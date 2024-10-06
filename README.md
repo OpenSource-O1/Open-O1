@@ -244,7 +244,7 @@ Open O1 is currently in its early stages of development. Open O1 primarily exhib
 | Reproducing the two o1 scaling laws both at training time (RLHF) and inference time       | 2~3 months          |
 
 ## Disclaimer
-We have not yet reached **O1** level, but we are on the way. The first version has shown performance improvements on **LLaMA** and **Qwen**, with some promising data, but the style is still very close to **O1**. This project is **non-profit**. We welcome the entire community to join us in this journey.
+We have not yet reached **O1** level, but we are on the way. The first version has shown performance improvements on **LLaMA** and **Qwen**, with some promising data, but the style is still very close to **O1**. This project is **non-profit**. We welcome the entire community to join us in this journey. Moving forward, we will open source all the code and materials from the development process.
 
 
 ## Citation

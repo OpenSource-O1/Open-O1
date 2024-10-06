@@ -243,6 +243,11 @@ Open O1 is currently in its early stages of development. Open O1 primarily exhib
 | A new chatbot arena for evaluating and comparing the thinking process of different models | 1 month             |
 | Reproducing the two o1 scaling laws both at training time (RLHF) and inference time       | 2~3 months          |
 
+## Disclaimer
+
+1. We have not yet reached **O1** level, but we are on the way.
+2. The first version has shown performance improvements on **LLaMA** and **Qwen**, with some promising data, but the style is still very close to **O1**.
+3. This project is **non-profit**. We welcome the entire community to join us in this journey.
 
 
 ## Citation

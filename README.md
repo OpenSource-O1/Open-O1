@@ -72,7 +72,7 @@ There are three letters 'r' in the word 'strawberry'.
 ### 💻Model Deployment
 To quickly get started with **Open O1**, we provide some steps for you to enjoy our model.
 #### Model Download
-- OpenO1-V1-LLaMa-8B 
+- OpenO1-LLama-8B-v0.1 
 - OpenO1-V1-Qwen-7B
   
 ### Deployment
@@ -100,7 +100,7 @@ The following table provides a comprehensive comparison of the performance betwe
 | Model                   | GSM8K| MATH| MMLU| Hellaswag| ARC-C| BBH|
 | ----------------------- | :---------------: | :------------: | :--------------: | :-----------: | :-----------: | :-----------: |
 | llama3.1-8b-instruct |       84.00       |     47.42     |       67.95      |   **68.43** |   83.87      | 53.64 |
-| Ours(OpenO1-V1-LLaMa-8B) |       **85.82**        |      **52.88**     |       **70.45**      |  67.77 |    **86.52**      | **58.43** | 
+| Ours(OpenO1-llama-8B-v0.1) |       **85.82**        |      **52.88**     |       **70.45**      |  67.77 |    **86.52**      | **58.43** | 
 
 
 - **GSM8K**: Our model outperforms **llama3.1-8b-instruct** with a score of **85.82**, demonstrating better reasoning ability in math word problems.
@@ -111,15 +111,12 @@ The following table provides a comprehensive comparison of the performance betwe
 - **BBH**: Our model achieves **58.43**, surpassing **llama3.1-8b-instruct**’s score of **53.64**.
 
 The results highlights our model's superior performance in most benchmarks, with notable improvements in MATH, MMLU, ARC-C, and BBH.
+## 🍭Available Models
+- [OpenO1-Qwen-7B-v0.1](https://huggingface.co/O1-OPEN/OpenO1-Qwen-7B-v0.1/tree/main)
+- [OpenO1-LLama-8B-v0.1](https://huggingface.co/O1-OPEN/OpenO1-LLama-8B-v0.1/tree/main)
 
 ## 🎋Training Details
 The training process for Open O1 utilizes the configuration settings from Llama Factory to optimize performance. This section includes details on the datasets used, training methodologies, and relevant hyperparameters.
-
-### model
-```
-OpenO1-V1-LLaMa-8B
-OpenO1-V1-Qwen-7B
-```
 
 ### method
 ```
@@ -165,10 +162,6 @@ per_device_eval_batch_size: 1
 eval_strategy: steps
 eval_steps: 200
 ```
-
-## 🍭Available Models
-- OpenO1-V1-Qwen-7B
-- OpenO1-V1-LLaMa-8B
 
 ## ❓FAQ
 Summarizing and updating...

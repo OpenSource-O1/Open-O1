@@ -76,7 +76,20 @@ To quickly get started with **Open O1**, we provide some steps for you to enjoy 
 - OpenO1-Qwen-7B-v0.1
   
 ### Deployment
-Go to [open-o1](https://huggingface.co/spaces/happzy2633/open-o1/blob/main/README.md) huggingface repository to deploy models.
+1.  Git clone this repository.
+```shell
+git clone https://github.com/OpenSource-O1/Open-O1.git
+```
+
+2.  Install the dependencies listed in Deployment/requirements.txt.
+    
+3.  Execute the script below.
+    
+```shell
+python Deployment/app.py
+```
+
+4. You can choose OpenO1-Qwen-7B-v0.1 or OpenO1-LLama-8B-v0.1 model, which can be obtained in huggingface.
 
 ### 💬Chat templates
 The chat templates of Open O1 is following LLaMA3.1's. The details can be obtained in [chat-templates](https://github.com/meta-llama/llama3/blob/main/llama/tokenizer.py).

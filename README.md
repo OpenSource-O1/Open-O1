@@ -73,7 +73,7 @@ There are three letters 'r' in the word 'strawberry'.
 To quickly get started with **Open O1**, we provide some steps for you to enjoy our model.
 #### Model Download
 - OpenO1-LLama-8B-v0.1 
-- OpenO1-V1-Qwen-7B
+- OpenO1-Qwen-7B-v0.1
   
 ### Deployment
 Go to [open-o1](https://huggingface.co/spaces/happzy2633/open-o1/blob/main/README.md) huggingface repository to deploy models.

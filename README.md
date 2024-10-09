@@ -54,7 +54,9 @@ There are three letters 'r' in the word 'strawberry'.
 ```
 
 ## 🔔News
+🚀 [10/09/2024] OpenO1 model-v0.1 release！
 🚀 [10/05/2024] OpenO1 initial release！
+
 ## Content Navigation
 | Section                                  | Description                                               |
 | ------------------------------------- | ------------------------------------------------------------ |

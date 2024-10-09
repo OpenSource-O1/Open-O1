@@ -143,7 +143,7 @@ deepspeed: ds_z3_config.json
 
 ### dataset
 ```
-dataset: llama_response/qwen_response
+dataset: o1_style_dataset
 template: llama3/qwen
 cutoff_len: 4096
 overwrite_cache: true

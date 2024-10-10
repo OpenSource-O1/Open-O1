@@ -22,7 +22,7 @@ As the Open O1 project progresses, we will continue to push the boundaries of wh
 ![](./picture/show_demo.gif)
 [🤗Welcome to experience our model!](https://huggingface.co/spaces/happzy2633/open-o1)
 Note:
-The model deployed on Hugging Face may have undergone quantization, which can lead to some performance degradation. If you'd like to experience the original performance of the model, you're encouraged to deploy it on your own infrastructure.🤗
+The model deployed on HuggingFace may have undergone quantization, which can lead to some performance degradation. If you'd like to experience the original performance of the model, you're encouraged to deploy it on your own infrastructure.🤗
 ## 🍓How many letters 'r' in the word 'strawberry'?
 
 ## 📋

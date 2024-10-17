@@ -187,7 +187,7 @@ Open O1 is currently in its early stages of development. Open O1 primarily exhib
 
 ## ⭐Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=OpenSource-O1/Open-O1&type=Date)](https://star-history.com/#OpenSource-O1/Open-O1&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Open-Source-O1/Open-O1&type=Date)](https://star-history.com/#Open-Source-O1/Open-O1&Date)
 
 ## Reference
 
